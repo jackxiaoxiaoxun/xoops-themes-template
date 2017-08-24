@@ -1,0 +1,656 @@
+/* 線上測驗題庫  */
+/* ======= onlineexam-index樣板 ======= */
+/*#onlineexam{
+line-height: 200%;
+padding: 0px 20px;
+}
+
+
+
+div#content #onlineexam .odd{
+border: 0px solid ;
+} 
+
+#onlineexam  #onlineexam_index{
+
+
+}
+
+#onlineexam  h3{
+font-size: 1.1em;
+}
+
+
+#onlineexam  h4{
+font-size: 1.0em;
+
+}
+
+#onlineexam  .even  table{
+vertical-align: top;
+}
+
+#onlineexam  #pa{ 
+vertical-align: middle;
+}
+
+#onlineexam  .even table{
+width: 400px;
+} 
+
+
+
+#onlineexam  .even  #instruct_titler img{
+position:  relative;
+left: 0px;
+padding: 0px 5px 0px 0px;
+}
+
+#onlineexam  .even #item .evencenter{
+min-height: 340px;
+}
+
+
+#onlineexam  .even .evencenter{
+background:	 url(../img/neoeven02.jpg)  repeat-y   left  top;
+overflow: hidden;
+padding: 0px 20px 0px 20px;
+}
+
+
+
+#onlineexam   td#instruct_titlel h3{
+width: 360px;
+padding: 5px 0px 0px 0px;
+margin: 0px;
+}
+
+#onlineexam   h3{
+padding: 0px 0px 10px 0px;
+margin: 0px;
+}
+
+
+
+
+
+#onlineexam   .even a{
+color: #585858;
+}
+
+
+#onlineexam  .even #evenhr{
+border-bottom:  1px solid  #CFC9C9;
+padding: 5px 0px 0px 0px;
+margin-right: 10px;
+}
+#onlineexam  .even #item li{
+height: 45px;
+}
+
+#onlineexam .even #item li #pa{ 
+vertical-align: bottom;
+}
+
+#onlineexam  .even #item  strong{
+}
+
+#onlineexam  .even  #text{
+font-size: 1.1em;
+}
+
+
+#onlineexam  #instruct_title12{
+
+padding: 0px 0px 0px 5px;
+vertical-align: top;
+font-size: 105%;
+}
+
+
+#onlineexam   #onlineexam_indexclear{
+clear: both;
+}
+
+#onlineexam   span{
+color:	#AA2A29;
+font-weight: bold;
+}
+
+#onlineexam  #leftfloatdiv{
+ z-index:10000; 
+}
+
+
+
+#onlineexam  #print{
+padding: 5px; 
+text-align: right;
+margin-right:3px;
+}*/
+
+/* =======onlineexam-explanation.html樣板 ======= */
+/*
+#onlineexam  #explanationhead{
+font-weight: normal;
+height: auto !important;
+background:	 url(../img/)  repeat-x   left  center !important; 
+}
+
+#onlineexam  #onlineexam-explanation  .even  #explanationhead{
+width: 450px;
+line-height: 220%;
+font-size: 1.1em;
+}
+
+#onlineexam  #explanationodd ul {  
+list-style-type: decimal !important; 
+ margin:  40px 40px  40px 0px !important; 
+ padding-left: 20px !important; 
+ }
+
+#onlineexam  #onlineexam-explanation  .even #explanationodd{
+margin: 0px 0px 0px 4px;
+font-size: 1.1em;
+line-height: 220%;
+color: #4C4C4E;
+}
+
+
+#onlineexam   .foot{
+background:	#DBDBDB  url(../img/)  no-repeat   left top; 
+width: 524px;
+height: 45px;
+	margin: 0 auto;
+	text-align: cenyer; 
+}
+
+
+
+#onlineexam  #onlineexam-explanation  .even  .foot  .explanationfoot{
+height:  49px;
+width: 225px; 
+background:			 url(../img/giclond_10a.png) no-repeat  left  top;
+    text-align:                      center; 
+	margin: 0 auto; 
+}
+
+[id=onlineexam]  [id=onlineexam-explanation]  [class=even]  [class=foot]  [class=explanationfoot]  a{
+background:			 url(../img/giclond_10.png) no-repeat  left  top !important;
+}
+
+#onlineexam  #onlineexam-explanation  .even  .foot  .explanationfoot  a{
+background:			 url(../img/giclond_10.gif) no-repeat  left  top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:            49px;
+ }
+ [id=onlineexam]  [id=onlineexam-explanation]  [class=even]  [class=foot]  [class=explanationfoot]  a:hover{
+  background:	none !important;
+ }
+ 
+ 
+#onlineexam  #onlineexam-explanation  .even  .foot  .explanationfoot  a:hover{
+ background:	none;
+ }
+
+
+#onlineexam  .even  #explanationimg{
+width:  107px;
+padding-top: 15px;
+}
+
+#onlineexam  .even  #explanationtdtext{
+padding: 10px 0px  0px  10px;
+
+}
+
+#onlineexam  .even  #explanationhead  span{
+color:	#AA2A29;
+font-weight: normal;
+}*/
+/* =======onlineexam-explanationlond.html樣板 ======= */
+/*
+#onlineexam  #lond{
+width: 100%; 
+background:			 url(../img/giclond.jpg) no-repeat  left  top;
+    text-align:                      center; 
+	margin: 0 auto; 
+	padding: 15px 0px 100px 0px;
+}
+
+#onlineexam  #lond div{
+font-size: 1.1em;
+margin: 0px 40px 20px 40px;
+line-height: 220%;
+}
+
+
+
+#onlineexam  #lond div span{
+font-size: 1.0em;
+font-weight: normal;
+}
+*/
+
+
+/* =======onlineexam-center.html樣板 ======= */
+/*#onlineexam   #onlineexam-center{
+min-height:  500px;
+}
+
+#onlineexam   #onlineexam-center h3,
+#onlineexam  #onlineexam-center h3:first-letter{
+color: #106B6E; !important;
+}
+
+[id=onlineexam]   [id=onlineexam-center] [class=onlineexam-centerodd] img{
+max-width: 400px !important;
+}
+
+#onlineexam   #onlineexam-center .onlineexam-centerodd img{
+width: 400px;
+border: 1px solid #32363F;
+padding: 5px;
+}
+
+
+#onlineexam   #onlineexam-center .onlineexam-centerodd img:hover{
+border: 1px solid #C82B05;
+cursor: hand;
+}
+
+
+#onlineexam   #onlineexam-center  #onlineexam-centercaption{
+font-size: 1.3em;
+color: #3D3D3D;
+margin-bottom: 5px;
+}
+
+#onlineexam   #onlineexam-center  .even{
+border-bottom: 1px solid #C2BEBF;
+padding-bottom: 20px;
+}
+
+#onlineexam   #onlineexam-center  #imga{
+padding: 20px 0px 20px 0px;
+max-width: 445px;
+}
+#onlineexam   #onlineexam-center legend{
+font-size: 1.2em;
+color: #32363F;
+background:			 url(../img/filefind.png) no-repeat  left  top;
+padding-left: 25px;
+margin-bottom: 10px;
+}
+
+#onlineexam   #onlineexam-center #itemquestion{
+font-size: 1.1em;
+color: #32363F;
+padding-bottom: 10px;
+}
+#onlineexam   #onlineexam-center #itemanswer{
+font-size: 105%;
+line-height: 220%;
+color: #2F2F2F;
+border-bottom: 1px solid #C2BEBF;
+padding: 0px 20px  20px 0px;
+}
+
+#footsubmit{
+position:              relative;    
+left:30%;
+
+}
+
+#footsubmit  input{
+width: 228px;
+height: 49px;
+
+}
+
+#footsubmit  input[type=submit]{
+display:            block; 
+background:			 url(../img/giclond_11.png) no-repeat  left  top;
+width: 228px;
+height: 49px;
+	margin: 					0;
+	border:						0px solid;
+	cursor: 					pointer;
+	 overflow:           hidden;
+	  padding-top:            79px;
+}
+
+
+
+#onlineexam  #onlineexam-center .even .evencenter{
+font-size: 1.1em;
+}
+*/
+
+/* =======onlineexam-and.html樣板 ======= */
+/*
+#onlineexam  #onlineexam-and h3{
+font-size: 1.2em;
+color: #444444;
+padding-left: 30px;
+}
+#onlineexam-and  h3  #diva{
+padding-left: 40px;
+}
+#onlineexam-and  .odd #diva{
+padding-left: 47px;
+}
+
+#onlineexam  #onlineexam-and h4{
+margin: 20px 0px 20px 10px;
+font-weight: normal;
+color: #757271;
+
+}
+
+#onlineexam  #onlineexam-and .evencenter  .odd{
+padding:0px 10px 0px 10px;
+font-size: 1.1em;
+line-height: 220%;
+}
+
+#onlineexam  #onlineexam-and .evencenter  .odd span{
+font-weight: normal;
+}
+#onlineexam  #onlineexam-and .evencenter  li{
+margin: 0px 0px 10px 0px;
+border-bottom: 1px solid #CBCBCB;
+}
+#onlineexam  #onlineexam-and .evencenter  .odd #odda{
+padding: 0px 0px 10px 47px;
+}
+#onlineexam  #onlineexam-and .evencenter  .odd #oddb{
+padding: 20px 0px 20px 0px;
+}
+
+#onlineexam  #onlineexam-and .evencenter  .odd b{
+color: #4D4D4D;
+}
+
+#onlineexam  #onlineexam-and #print{
+    text-align:                      center; 
+	margin: 0 auto; 
+}
+
+
+
+#onlineexam  #onlineexam-and  .even  .foot  .explanationfoot{
+height:  49px;
+width: 225px; 
+    text-align:                      center; 
+	margin: 0 auto; 
+}
+
+
+
+
+#onlineexam  #onlineexam-and .even  .foot  .explanationfoot  a{
+background:			 url(../img/giclond_12.png) no-repeat  left  top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:            49px;
+ }
+ 
+*/
+ 
+
+/* ======= 活動報名 ======= */
+ div#content  .evtbl   th{
+ background:		 url(../img/) repeat-x   left  top !important; 
+ border: none;
+ }
+  div#content  .evinfo{
+  background:			#E8E8E8 url(../img/) repeat-x   left  top; 
+  }
+  
+  div#content  .evhead{
+    background:			#E8E8E8 url(../img/Community023.jpg) repeat-x   left  top; 
+    height:    36px;
+    color:        #FFFFFF;
+  }
+  
+ div#content  .evlink{
+    background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+ }
+/* ======= 討論區 ======= */
+#newbb_block_new  td{
+padding: 1px 5px;
+}
+#newbb_block_new   #visitforum{
+	text-align: right; 
+	padding-right: 10px;
+
+}
+#newbb_block_new   #odd{
+width: 270px;
+height: 31px;
+	overflow:hidden;
+}
+
+#newbb_block_new   #visitforum a{
+font-size: 0.9em;
+}
+
+
+#dropdown a{
+	color:#FFFFFF;
+	}
+
+#dropdown .menubar, #dropdown .menu, #dropdown .item, #dropdown .separator{
+	background-color: #99B5CC;
+	color:#FFFFFF;
+	}
+
+#dropdown .separator{
+	border: 1px inset #e0e0e0;
+	}
+
+#dropdown .menu a:hover{
+	color: #333;
+	}
+/* color - end */
+
+
+div#content  a#cl_book_title,
+div#content   table.outer tr.head a,
+div#content   table.index_category a,
+div#content .index_category  tr.head  p.desc  a{
+color: #494846; 
+}
+
+div#content  a#cl_book_title:hover,
+div#content   table.outer tr.head  a:hover,
+div#content    table.index_category a:hover,
+div#content  .index_category  tr.head  p.desc  a:hover{
+color: #1F7578; 
+}
+
+
+div#content  .index_category  tr.head  p.desc  a{
+background-image:  none !important;
+margin-top:   -5px;
+ border: none;
+}
+
+
+
+div#content  .index_category  tr.head  p{
+border-bottom:  transparent; 
+background-image:  none !important;
+ border: none;
+}
+
+div#content    table.index_category{
+background:			#E8E8E8 url(../img/th01.png) repeat-x   left  top; 
+height:         42px;
+}
+
+div#content    table.index_category  tr.head  td	p.desc{
+background:		 url(../img/) repeat-x   left  top; 
+height:         30px;
+margin:  5px   0 0  0;
+}
+
+div#content    table.index_category  tr.head  img{
+margin:   7px 5px  0  5px;
+}
+
+
+div#content   	div#index_forum  span.extra,
+div#content   	div#index_forum    span.item{
+background-color:  transparent !important;
+border:  transparent; 
+line-height:         170% !important;
+margin:  0    5px  0   -7px;
+}
+
+
+
+
+div#content   	div#index_forum    span.item a{
+padding:   0px;
+color:    #6D798E;
+font-size:   1.1em;
+}
+
+div#content    	div#index_forum    span.item a:hover{
+color:    #111111;
+}
+
+div.dropdown .menu, div.dropdown .menubar, div.dropdown .item, div.dropdown .separator{
+background:			#7FA1D8 url(../img/) repeat-x   left  top !important; 
+
+}
+
+div#content   table.outer tr.head{
+background:			#89B50A url(../img/) repeat-x   left  top; 
+color: #ffffff; 
+}
+
+div#content   table.outer tr.odd  td img,
+div#content   table.outer tr.even  td img{
+margin:    7px  0  0  0;
+
+}
+
+
+div#content  td.odd .comText  img{
+max-width: 450px !important;
+}
+
+
+
+div#content   table.outer tr.foot{
+background:			#E8E8E8 url(../img/) repeat-x   left  top; 
+}
+
+div[id="content"]  div  div[ID="forum_header"]{
+background:			 url(../img/ossaccbbs.png) no-repeat   right  top; 
+min-height:150px;
+}
+
+div#content   div#forum_header{
+background:			 url(../img/ossaccbbs.png) no-repeat   right  top; 
+height:150px;
+}
+
+
+div#content   div.dropdown  {
+background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+margin:   0;
+}
+div#content   div.comUserRankText img{
+margin-left:  -2px;
+}
+
+
+
+/* ======= 網路地圖======= */
+#sitmapcss{
+padding: 0px 30px 0px 50px;
+
+}
+
+#sitmapcsshr{
+padding-top: 50px;
+}
+
+
+
+
+/* ======= pic ======= */
+
+div#content .pical-categoryform  td{
+background:			#86B409 url(../img/th01.png) repeat-x   left  top; 
+
+}
+
+div#content .pical-categoryform  td  span.calhead{
+color: #686868;
+}
+
+div#content #pica{
+
+}
+
+div#content #pica  #odd table td{
+border: 1px solid #B0B0AC !important;
+
+
+}
+
+
+/*  ==========tad模組BLOCK置中區塊 =========*/
+#msg_results{
+padding-bottom: 25px;
+}
+#msg_results  input[type=button]{
+margin:10px  10px 0px  0px;
+clear: both;
+
+} 
+
+/*  ==========tabs =========*/
+
+#mytabs  li{
+float: left !important;
+}
+
+/*  ==========tad_faq模組page頁面 =========*/
+
+
+
+div#content .corners .b1,
+div#content .corners .b2, 
+div#content .corners .b3, 
+div#content .corners .b4,
+div#content .corners .b1b, 
+div#content .corners .b2b, 
+div#content .corners .b3b, 
+div#content .corners .b4b{
+display: none !important;
+
+}
+
+
+/*  ==========ugm_contact_us模組page頁面 =========*/
+div#content #inquiry td{
+border: 1px solid #FFFFFF;
+} 
+
+div#content #inquiry th{
+background:			#F3F3F3  url(../img/) repeat-x   left  top; 
+}
+
+
+div#content #inquiry .submit {
+background:			#EAEAEA  url(../img/) repeat-x   left  top; 
+}

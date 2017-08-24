@@ -1,0 +1,264 @@
+/* =======logcounterx======= */
+
+#logcounterx{
+margin: 10px 20px  10px  10px;
+}
+#logcounterx  img{
+margin: 5px  0px;
+}
+
+/* =======tadgallery ======= */
+
+div#content div  table.form_tbl td.col select{
+width:  auto !important;
+}
+
+
+
+/* ======= tinyd ======= */
+
+div#content div  #index2_html p{
+background:	 url(../img/)  repeat-x   left  center !important; 
+font-size:  1.1em !important; 
+color:  #686667 !important; 
+line-height:    230%;
+}
+
+div#content div  #index2_html p font{
+color:  #686667 !important; 
+border-bottom: 1px dotted Silver;
+}
+
+
+
+/* ======= tadbook2 ======= */
+div#content div  #cl_book_title{
+display:  block;
+width:    100%;
+background:		 url(../img/ossb.png) repeat-x   left  top !important; 
+text-align:    center;
+}
+
+
+div#content div  .cl_author{
+padding:   5px   0   5px  8px;
+line-height:   200%;
+}
+
+
+div#content div  .tb2_box{
+padding:    8px;
+line-height:    200%;
+border-bottom: 1px solid #A5A5A5;
+border-top: 1px  solid #A5A5A5;
+}
+
+div#content div  .cl_book_info{
+background:		 url(../img/ossiconb.jpg) no-repeat   right  center !important; 
+text-align:    left;
+padding:   5px   0   5px  8px;
+}
+
+div#content div  div.all_contest_list h3{
+display:    block;
+background:		 url(../img/ossitemHead.png) repeat-x   left  top !important; 
+text-align:    center;
+color:   #FFFFFF;
+}
+
+
+
+
+div#content div  div.all_contest_list   table.content_list a{
+display:    block;
+float:     left;
+background:		 url(../img/oss_29.png) no-repeat   5px 2px !important; 
+padding:  0  0   0  25px;
+border-bottom: 1px dotted Silver;
+margin-left:  8px;
+}	
+
+div#content div  div.all_contest_list   table.content_list  span.datestamp a {
+background:		 url(../img/) no-repeat   !important; 
+padding:   0px !important;
+border-bottom: none;
+}
+
+/* ======= faq ======= */
+div#content div table.outer  ul  li{
+margin-left:          52px !important;
+}
+
+
+
+/* ======= 夥伴網站 ======= */
+div#content div  table.outer  td.odd  b{
+background:		 url(../img/) repeat-x   left  top !important; 
+}
+
+/* ======= 活動報名 ======= */
+ div#content div  .evtbl   th{
+ background:		 url(../img/) repeat-x   left  top !important; 
+ border: none;
+ }
+  div#content div  .evinfo{
+  background:			#E8E8E8 url(../img/) repeat-x   left  top; 
+  }
+  
+  div#content div   .evhead{
+    background:			#E8E8E8 url(../img/ossitemHead.png) repeat-x   left  top; 
+    height:    36px;
+    color:        #FFFFFF;
+  }
+  
+ div#content div   .evlink{
+    background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+ }
+/* ======= 討論區 ======= */
+
+/* color -- dropdown menu for Forum */
+#dropdown a{
+	color:#FFFFFF;
+	}
+
+#dropdown .menubar, #dropdown .menu, #dropdown .item, #dropdown .separator{
+	background-color: #99B5CC;
+	color:#FFFFFF;
+	}
+
+#dropdown .separator{
+	border: 1px inset #e0e0e0;
+	}
+
+#dropdown .menu a:hover{
+	color: #333;
+	}
+/* color - end */
+
+
+div#content div  a#cl_book_title,
+div#content div  table.outer tr.head a,
+div#content div   table.index_category a,
+div#content div .index_category  tr.head  p.desc  a{
+color: #ffffff; 
+}
+div#content div  a#cl_book_title:hover,
+div#content div  table.outer tr.head  a:hover,
+div#content div   table.index_category a:hover,
+div#content div .index_category  tr.head  p.desc  a:hover{
+color: #3F3F3F; 
+}
+
+
+div#content div .index_category  tr.head  p.desc  a{
+background-image:  none !important;
+margin-top:   -5px;
+ border: none;
+}
+
+
+
+div#content div .index_category  tr.head  p{
+border-bottom:  transparent; 
+background-image:  none !important;
+ border: none;
+}
+
+div#content div   table.index_category{
+background:			#E8E8E8 url(../img/ossitemHead.png) repeat-x   left  top; 
+height:         42px;
+}
+
+div#content div   table.index_category  tr.head  td	p.desc{
+background:		 url(../img/) repeat-x   left  top; 
+height:         30px;
+margin:  5px   0 0  0;
+}
+div#content div   table.index_category  tr.head  img{
+margin:   7px 5px  0  5px;
+}
+
+div#content div  div 	td.even{
+background:			#FFFFFF url(../img/) repeat-x   left  top; 
+border-bottom: 1px dotted Silver;
+border-top: 1px dotted Silver;
+padding-top:   16px;
+}
+
+div#content div   div	td.odd 	{
+background:			#FFFFFF url(../img/) repeat-x   left  top; 
+border-bottom: 1px dotted Silver;
+border-top: 1px dotted Silver;
+}
+
+div#content div  	div#index_forum  span.extra,
+div#content div  	div#index_forum    span.item{
+background-color:  transparent !important;
+border:  transparent; 
+line-height:         170% !important;
+margin:  0    5px  0   -7px;
+}
+
+
+
+
+div#content div  	div#index_forum    span.item a{
+padding:   0px;
+color:    #6D798E;
+font-size:   1.1em;
+}
+
+div#content div   	div#index_forum    span.item a:hover{
+color:    #111111;
+}
+
+div.dropdown .menu, div.dropdown .menubar, div.dropdown .item, div.dropdown .separator{
+background:			#7FA1D8 url(../img/) repeat-x   left  top !important; 
+
+}
+
+div#content div  table.outer tr.head{
+background:			#E8E8E8 url(../img/ossb.png) repeat-x   left  top; 
+color: #ffffff; 
+}
+
+div#content div  table.outer tr.odd  td img,
+div#content div  table.outer tr.even  td img{
+margin:    7px  0  0  0;
+}
+div#content div  table.outer tr.foot{
+background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+}
+
+div[id="content"]  div  div[ID="forum_header"]{
+background:			 url(../img/ossaccbbs.png) no-repeat   right  top; 
+min-height:150px;
+}
+
+div#content div  div#forum_header{
+background:			 url(../img/ossaccbbs.png) no-repeat   right  top; 
+height:150px;
+}
+
+
+div#content div  div.dropdown  {
+width: 580px;
+background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+margin:   0;
+}
+div#content div  div.comUserRankText img{
+margin-left:  -2px;
+}
+
+
+
+/* ======= 網路地圖======= */
+#sitmapcss{
+padding: 0px 30px 0px 50px;
+
+}
+
+#sitmapcsshr{
+padding-top: 50px;
+}
+

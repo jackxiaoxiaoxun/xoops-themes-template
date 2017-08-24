@@ -1,0 +1,1935 @@
+/* ======= 外框設定 ======= */
+
+
+
+#xbody{
+   width:                           1000px;
+position:              relative;      
+left:            0px;
+	margin: 0 auto;
+	text-align: left; 
+letter-spacing:               0.1em !important; 
+
+}
+
+
+#xbody #tablecontents ul{
+list-style:             none;
+margin:                      0;
+padding:                      0;
+}
+
+#xbody  #tablecontents  li{
+
+margin:       0  ; 
+padding:      0px ;
+ width:               auto;
+}
+
+[id=tablecontents]{
+   background:		 url(../img/Community_03.png) repeat-y 248px top !important;
+}
+
+
+#tablecontents{
+   width:                           1000px;
+   background:		 url(../img/Community_03.gif) repeat-y 248px top;
+}
+
+#xbodya{
+
+ background: url(../img/Community_28.jpg) no-repeat   248px  bottom;
+
+}
+
+
+/* ======= 內眶設定 ======= */
+
+#centercolumndiv{
+position:              relative;   
+width: 735px; 
+	margin: 0 auto;
+	text-align: left; 
+	overflow:hidden;
+
+}
+
+
+
+/* ======= 內眶左區塊設定 ======= */
+[id=leftcolumndivatopa]{
+background:		 url(../img/Community_03_01.png) repeat-y left top !important;
+}
+
+
+
+#leftcolumndivatopa{
+z-index: 2000;
+width:  25px;
+height: 100000px;
+position: absolute;
+background:		 url(../img/Community_03_01.gif) repeat-y left top;
+left: 227px;
+bottom: 0px;
+}
+
+
+#leftcolumndivatop{
+float:            left;
+z-index: 2000;
+width:  235px;
+position:              relative;      
+margin-bottom:20px;
+left: 10px;
+overflow:hidden;
+}
+
+
+[id=rightcolumndivtop]{
+background:			 url(../img/Community_04.png) no-repeat left top !important;
+}
+
+
+
+#rightcolumndivtop{
+width:  235px;
+height: 117px;
+background:			 url(../img/Community_04.gif) no-repeat left top ;
+
+}
+
+
+[id=rightcolumndivcenter]{
+background:			 url(../img/Community_10.png) repeat-y left top !important;
+}
+
+#rightcolumndivcenter{
+background:			 url(../img/Community_10.gif) repeat-y left top ;
+width:  235px;
+
+
+}
+
+[id=rightcolumndivbottom]{
+background:			 url(../img/Community_12.png) no-repeat left top !important;
+}
+
+
+
+
+#rightcolumndivbottom{
+width:  235px;
+height: 45px;
+background:			 url(../img/Community_12.gif) no-repeat left top ;
+}
+
+
+
+[id=leftcolumndivtop]{
+background:			 url(../img/Community_13.png) no-repeat left top !important;
+}
+
+
+#leftcolumndivtop{
+width:  235px;
+height: 159px;
+background:			 url(../img/Community_13.gif) no-repeat left top ;
+}
+
+
+[id=leftcolumndivcenter]{
+background:			 url(../img/Community_15.png) repeat-y left top !important;
+}
+
+#leftcolumndivcenter{
+background:			 url(../img/Community_15.gif) repeat-y left top ;
+width:  235px;
+
+}
+
+[id=leftcolumndivbottom]{
+background:			 url(../img/Community_17.png) no-repeat left top !important;
+}
+
+
+#leftcolumndivbottom{
+width:  235px;
+height: 107px;
+background:			 url(../img/Community_17.gif) no-repeat left top ;
+}
+
+
+#gotop{
+   position:              relative; 
+   top: 50px;
+   left: 45px;     
+height:  37px;
+width:    79px;
+background:		 url(../img/Community_23.jpg) no-repeat left top;
+}
+
+
+#gotop a{
+background:		 url(../img/Community_23.jpg) no-repeat left 2px;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          37px;
+ 
+}
+
+
+#gotop  a:hover{
+background-image: none;
+
+}
+
+
+#rss{
+   position:              relative; 
+   top: 14px;
+   left: 130px;     
+height:  37px;
+width:    35px;
+background:		 url(../img/Community_25.jpg) no-repeat left top;
+}
+
+
+#rss a{
+background:		 url(../img/Community_25.jpg) no-repeat left 2px;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          37px;
+ 
+}
+
+
+#rss  a:hover{
+background-image: none;
+
+}
+
+
+
+#leftcolumntop{
+position:              relative;  
+top: -80px;
+}
+
+/* ======= 頂部區塊 ======= */
+
+#header{
+width: 716px
+}
+
+
+/* ======= 頂部右區塊橫幅 ======= */
+
+
+#headerrighttop{
+width: 680px;
+position:              absolute;  
+top:  25px;
+  z-index:  1001;
+  
+}
+
+
+#headerrighttop  #headerrightd{
+width: 650px;
+height:  30px;
+overflow:  hidden;
+position:              relative;   
+margin: 0px  0px  0px   15px;
+  z-index:  1000;
+  line-height: 220%;
+}
+
+
+#headerrighttop  #headerrightd  a{
+display: block;
+font-size:  1.4em;
+font-weight:  bolder;
+color:  #FFFFFF;
+background:        url(../img/kscreensaver.png) no-repeat left  top;
+padding-left: 40px;
+}
+
+
+#headerrighttop  #headerrightd a:first-letter{
+color:  #F36A10;
+}
+
+#headerrighttop  #headerrightd  a:hover{
+color:  #191919;
+}
+
+
+#headerrighttop  #headerrighte{
+height:  30px;
+width: 650px;
+overflow:  hidden;
+position:              relative;   
+top: -29px;
+margin: 0px  0px  0px   16px;
+  z-index:  999;
+    line-height: 220%;
+}
+
+#headerrighte  a{
+display: block;
+font-size:  1.4em;
+font-weight:  bolder;
+color:  #5B5B5B;
+padding-left: 40px;
+}
+
+
+
+/* ======= 頂部區塊右邊登入區塊 ======= */
+/*#headerrighta{
+height:               30px;
+position:              relative;      
+top:                    25px;
+
+}
+
+
+#xo-user{
+}
+
+#xo-userout{
+margin:           0   13px;
+
+}
+#xo-userout img{
+margin-right:    10px;
+}
+
+
+#xo-userout  ul{
+margin:           0;
+padding:           0;
+
+}
+
+#xo-userout  li{
+
+float:                      left;
+margin:           0;
+padding:           0;
+}
+
+#xo-userout  li  div  img{
+vertical-align : bottom; 
+margin-left:    5px;  
+float:                      left;
+}
+
+#xo-userout  li  div  strong{
+font-size:    0.9em;
+font-weight:   lighter;
+margin:    0px 20px   0  0px;
+padding:   0px;
+color:  #5D8EB6;
+border-bottom:   1px  solid  #C5C5C5;
+}
+
+#xo-userout  li  div  strong  span{
+color:  #808080;
+font-size:    1.0em;
+}
+
+#xo-userout  li  form  input{
+width:   180px;
+border:  0px  solid  #FFFFFF;
+color:   #5B5B5B;
+font-size:    0.9em;
+border-bottom:   1px  solid  #C5C5C5;
+}
+
+
+
+#xo-userin{
+font-size:             0.8em;
+color:                    #979B9C;
+
+}
+#xo-userin  ul{
+list-style:             none;
+margin:                      0;
+padding:                      0;
+}
+
+#xo-userin  ul  li{
+float:            left;
+margin:                      0;
+padding:                      0;
+}
+
+#xo-userin  ul  li span{
+padding:          0;
+padding-bottom:          3px;
+display:                block;
+margin:       0  7px   5px  15px;
+width:                  auto;
+border-bottom:  3px  solid  #BFD4D7;
+}
+
+#xo-userin  ul  .liimg{
+margin:       0  7px   5px  15px;
+}*/
+
+
+/* ======= 廣告區塊內容 ======= */
+
+div#headerbanner {
+  position:              relative;      
+top: 10px;
+
+	margin: 0 auto;
+         overflow: hidden; 
+      z-index: 3000;
+       text-align:                      center; 
+    bottom: 10px;
+      }
+      
+
+
+/* ======= 頂端下按鈕內容 ======= */
+
+#headerrightbl{
+width: 716px;
+margin: 10px 0px 0px 0px;
+height: 56px;
+}
+
+#headerrightbl  ul{
+list-style:             none;
+margin:                      0;
+padding:                      0;
+}
+
+#headerrightbl    li{
+float:            left;
+margin:       0  ; 
+padding:      0px ;
+ width:               auto;
+}
+
+#headerrightbl  a{
+ text-align:                      center; 
+ padding-top:   14px;
+ font-size: 0.9em;
+ color: #FFFFFF;
+ height:         56px; 
+ overflow: hidden; 
+ font-weight: normal;
+}
+
+
+
+#headerrightbl  ul  .b1{
+height:         56px;  
+ width:               97px;
+ background:			 url(../img/Community_15a.jpg) no-repeat left top ;
+ }
+ 
+
+#headerrightbl  ul  .b2{
+height:         56px;  
+ width:               101px;
+  background:			 url(../img/Community_16a.jpg) no-repeat left top ;
+}
+
+
+#headerrightbl  ul  .b3{
+height:         56px;  
+ width:               106px;
+   background:			 url(../img/Community_17a.jpg) no-repeat left top ;
+}
+
+#headerrightbl  ul  .b4{
+height:         56px;  
+ width:               99px;
+background:			 url(../img/Community_18a.jpg) no-repeat left top ;
+}
+
+#headerrightbl  ul  .b5{
+height:         56px;  
+ width:               99px;
+background:			 url(../img/Community_19a.jpg) no-repeat left top ;
+}
+
+
+#headerrightbl  ul  .b6{
+height:         56px;  
+ width:               98px;
+background:			 url(../img/Community_20a.jpg) no-repeat left top ; 
+}
+
+
+
+#headerrightbl  ul  .b7{
+height:         56px;  
+ width:               116px;
+background:			 url(../img/Community_21a.jpg) no-repeat left top ; 
+}
+
+
+
+
+
+#headerrightbl  ul  .b1  a{
+background:			 url(../img/Community_15.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               97px;
+
+}
+
+
+#headerrightbl  ul  .b1  a.menu_active{
+background:			 url(../img/Community_15a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               97px;
+}
+
+
+#headerrightbl  ul  .b2 a{
+background:			 url(../img/Community_16.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               101px;
+}
+
+#headerrightbl  ul  .b2  a.menu_active{
+background:			 url(../img/Community_16a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               101px;
+}
+
+
+
+#headerrightbl  ul  .b3 a{
+background:			 url(../img/Community_17.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               106px;
+}
+
+#headerrightbl  ul  .b3  a.menu_active{
+background:			 url(../img/Community_17a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+ width:               106px;
+}
+
+
+
+#headerrightbl  ul  .b4 a{
+background:			 url(../img/Community_18.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               99px;
+
+}
+
+#headerrightbl  ul  .b4  a.menu_active{
+background:			 url(../img/Community_18a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               99px;
+}
+
+
+
+#headerrightbl  ul  .b5 a{
+background:			 url(../img/Community_19.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               99px;
+}
+
+#headerrightbl  ul  .b5  a.menu_active{
+background:			 url(../img/Community_19a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               99px;
+}
+
+
+#headerrightbl  ul  .b6 a{
+background:			 url(../img/Community_20.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               98px;
+}
+
+#headerrightbl  ul  .b6  a.menu_active{
+background:			 url(../img/Community_20a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               98px;
+}
+
+
+
+#headerrightbl  ul  .b7 a{
+background:			 url(../img/Community_21.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               116px;
+}
+
+#headerrightbl  ul  .b7  a.menu_active{
+background:			 url(../img/Community_21a.jpg) no-repeat left top ;
+ display:            block; 
+ overflow:           hidden;
+  width:               116px;
+}
+
+
+
+
+
+
+#headerrightbl  ul  .b1  a:hover,
+#headerrightbl  ul  .b2  a:hover,
+#headerrightbl  ul  .b3  a:hover,
+#headerrightbl  ul  .b4  a:hover,
+#headerrightbl  ul  .b5  a:hover,
+#headerrightbl  ul  .b6  a:hover,
+#headerrightbl  ul  .b7  a:hover{
+ background-image:     none;
+color: #FFFFFF;
+}
+
+
+
+/* ======= 頂部右區塊橫幅 ======= */
+/*
+div[id="headerrightc"]{
+position:              relative;   
+margin:              0px  !important;   
+top:                    23px;
+left:                    -5px;
+}
+*/
+
+
+#headerrightc{
+clear:                    both;
+padding:             13px  0   0    3px;
+}
+
+
+
+
+/* ======= 頁腳區塊內容 ======= */
+[id=footerbar]{
+background:        url(../img/Community_20.png) no-repeat right  top !important;
+}
+
+
+
+#footerbar{
+clear: both;
+letter-spacing:         0.1em;
+font-size:         0.9em;
+position:       relative;
+left: 15px;
+z-index:  3500;
+width: 985px;
+height:            87px;
+color:       #959595;
+background:        url(../img/Community_20.gif) no-repeat right  top;
+overflow:hidden;
+}
+
+
+
+
+
+
+div#footerbarcc{
+position:  absolute;
+   top: 30px;
+   left: 830px;     
+height:  35px;
+width:    101px;
+background:		 url(../img/icon_by_03.png) no-repeat left 2px;
+z-index:  3601;
+}
+
+
+div#footerbarcc a{
+background:		 url(../img/icon_by_03.png) no-repeat left top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          35px;
+ 
+}
+
+
+div#footerbarcc  a:hover{
+background-image: none;
+
+}
+
+
+div[id=footerbarcd]{
+background:		 url(../img/lm_03.png) no-repeat left 2px !important;
+}
+
+div#footerbarcd{
+position:  absolute;
+   top: 30px;
+   left: 765px;     
+height:  41px;
+width:    49px;
+background:		 url(../img/lm_03.gif) no-repeat left 2px;
+z-index:  3601;
+}
+
+
+div[id=footerbarcd] a{
+background:		 url(../img/lm_03.png) no-repeat left top !important;
+}
+
+div#footerbarcd a{
+background:		 url(../img/lm_03.gif) no-repeat left top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          41px;
+ 
+}
+
+
+div[id=footerbarcd]  a:hover{
+background-image: none !important;
+}
+
+div#footerbarcd  a:hover{
+background-image: none;
+
+}
+
+div#footerbarce{
+position:  absolute;
+   top: 30px;
+   left: 690px;     
+height:  39px;
+width:    63px;
+background:		 url(../img/Community_47.png) no-repeat left 2px;
+z-index:  3601;
+}
+
+
+div#footerbarce a{
+background:		 url(../img/Community_47.png) no-repeat left top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          39px;
+ 
+}
+
+
+div#footerbarce  a:hover{
+background-image: none;
+
+}
+
+
+
+
+div#footerbarr{
+width: 65%;
+position:       relative;
+top: -58px;
+left: 135px;
+color: #FFFFFF;
+}
+
+
+#footleft{
+   position:              relative; 
+   top: 0px;
+   left: 15px;
+height:         87px;  
+ width:               127px; 
+  overflow:           hidden;
+}
+
+[id=footleft]  a{
+background:		 url(../img/Community_46.png) no-repeat left top !important;
+}
+
+
+#footleft  a{
+background:		 url(../img/Community_46.gif) no-repeat left top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:          87px;
+}
+
+
+
+div#footerbarr   a{
+color:       #FFFFFF;
+}
+
+
+
+div#footerbarr   a:hover{
+color:      #E0E0E0;
+}
+
+div#footerbarr  span{
+padding-left: 15px;
+}
+
+#admin{
+position:  absolute;
+top: 0px;
+}
+#xoops_footer{
+position:  absolute;
+top: 21px;
+font-size: 0.9em;
+}
+
+
+
+/*======頁腳按鈕=======*/
+div#footerbarmunu{
+position:  absolute;
+width:           100%;
+top: 20px;
+left: -240px;
+}
+
+
+div#footerbarmunu ul{
+width:           300px;
+list-style:             none;
+margin:                      0!important;
+padding:                      0!important;
+}
+
+
+
+
+div#footerbarmunu li {
+text-align:                      center; 
+float:            left;
+margin:       0!important;
+padding:      0px !important;
+width:         75px;
+}
+
+
+#footerbar  div#footerbarmunu   a{
+font-size:   1.1em;
+display:   block;
+margin-right: 5px;
+
+}
+
+
+
+#footerbar  div#footerbarmunu   a:hover{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= 左區塊內容 ======= */
+
+#leftcolumn {
+width:245px; 
+color:                 #686667;
+overflow: hidden;
+}
+
+
+
+#leftcolumn th {
+height: 42px;
+ background:		#92BD0C url(../img/Community020.jpg) repeat-x   left  top;
+color: #FFFFFF !important; 
+vertical-align: middle;}
+
+
+#leftcolumn h3{
+color: #0C0E0D;
+ font-weight: normal;
+
+}
+
+
+#leftcolumn  h3:first-letter{
+color: #11686F;
+
+} 
+
+
+
+
+#leftcolumn li { 
+float: none !important;
+}
+
+
+[id=leftcolumn] [class=blockTitle]{
+background:	 url(../img/Community_18.png) no-repeat 25px bottom !important;
+}
+
+
+#leftcolumn .blockTitle{
+background:	 url(../img/Community_18.gif) no-repeat 25px bottom;
+line-height: 280%;
+padding: 0px  0   0px   35px; 
+}
+
+
+
+
+#leftcolumndivatop  table.outer  th.head{
+height: 42px;
+ background:			#FBCB8B url(../img/) repeat-x   left  top;
+}
+
+
+#leftcolumn   div.blockContent{
+ padding: 5px 12px  0px 35px;
+ font-size: 0.9em;
+ line-height: 200%;
+}
+
+#leftcolumn table.outer .odd  input{
+margin-top: 4px !important;
+}
+
+
+/*  ====左區塊主選單按鈕=====   */
+
+#leftcolumn  td#mainmenu a.menuTop {
+line-height: 250%; 
+display: block; 
+margin:  0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_ends.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+
+#leftcolumn  td#mainmenu  a.menuTop:hover{
+background:			#EFF3FC	 url(../img/button_ends.gif) no-repeat  4px 8px ;
+border-right: 6px solid #1F7073;
+}
+
+#rightcolumn img,
+#leftcolumn img{
+max-width: 180px;
+}
+
+
+#leftcolumn  td#mainmenu a.menuMain {
+line-height: 250%; 
+display: block; 
+margin: 0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_nexts.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+#leftcolumn  td#mainmenu a.menuMain:hover{
+background:	#EFF3FC url(../img/button_nexts.gif) no-repeat   4px 8px;
+border-right: 6px solid #1F7073;
+}
+
+
+
+#leftcolumn  td#mainmenu a.menuSub {
+line-height: 250%; 
+display: block; 
+margin-left:  15px; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/Community021.jpg) no-repeat  2px 7px;
+padding:              0   0   0   22px  !important;
+}
+
+#leftcolumn  td#mainmenu a.menuSub:hover{
+background:			#EFF3FC	 url(../img/Community021a.jpg) no-repeat  4px 7px ;
+}
+
+
+
+
+/*  ====左區塊使用者選單按鈕=====   */
+#leftcolumn  #usermenu  li{
+border-bottom: 1px solid #A5A5A5 !important; 
+float: none;
+}
+/*
+#leftcolumn  #usermenu  #pa{
+vertical-align: top;
+}*/
+
+/*  ====右區塊使用者選單按鈕=====   */
+#rightcolumn  #usermenu  li{
+border-bottom: 1px solid #A5A5A5 !important; 
+float: none;
+}
+/*
+#leftcolumn  #usermenu  #pa{
+vertical-align: top;
+}*/
+
+/* ======= BIOCK 使用者選單按鈕圖示 ======= */
+[id=leftcolumn]  [id=usermenu]  li[id=icon01]{
+background:		 url(../img/icon07.png) no-repeat left top !important;
+}
+
+
+#leftcolumn  #usermenu  li#icon01{
+background:		 url(../img/icon07.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 38px;
+}
+
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon02] a{
+background:		 url(../img/icon03.png) no-repeat left top !important;
+}
+
+
+#leftcolumn  #usermenu  li#icon02  a{
+background:		 url(../img/icon03.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+
+}
+
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon02] a:hover{
+background:	#FCEFE0	 url(../img/icon03.png) no-repeat left top !important;
+}
+
+
+#leftcolumn  #usermenu  li#icon02  a:hover{
+background:	#FCEFE0	 url(../img/icon03.gif) no-repeat left top;
+
+}
+
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon03] a{
+background:		 url(../img/icon02.png) no-repeat left top !important;
+}
+
+
+#leftcolumn  #usermenu  li#icon03  a{
+background:		 url(../img/icon02.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon03] a:hover{
+background:	#FCEFE0	 url(../img/icon02.png) no-repeat left top !important;
+}
+
+#leftcolumn  #usermenu  li#icon03  a:hover{
+background:	#FCEFE0	 url(../img/icon02.gif) no-repeat left top;
+
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon04] a{
+background:		 url(../img/icon01.png) no-repeat left top !important;
+}
+
+
+#leftcolumn  #usermenu  li#icon04  a{
+background:		 url(../img/icon01.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon04] a:hover{
+background:	#FCEFE0	 	 url(../img/icon01.png) no-repeat left top !important;
+}
+
+#leftcolumn  #usermenu  li#icon04  a:hover{
+background:	#FCEFE0	 url(../img/icon01.gif) no-repeat left top;
+}
+
+
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon05] a{
+background:		 url(../img/icon04.png) no-repeat left top !important;}
+
+
+
+#leftcolumn  #usermenu  li#icon05  a{
+background:		 url(../img/icon04.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon05] a:hover{
+background:	#FCEFE0	 url(../img/icon04.png) no-repeat left top !important;}
+
+
+#leftcolumn  #usermenu  li#icon05  a:hover{
+background:	#FCEFE0 url(../img/icon04.gif) no-repeat left 5px;
+
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon06] a{
+background:	 url(../img/icon05.png) no-repeat left top !important;}
+
+
+#leftcolumn  #usermenu  li#icon06  a{
+background:		 url(../img/icon05.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon06] a:hover{
+background:	#FCEFE0	 url(../img/icon05.png) no-repeat left top !important;}
+
+
+#leftcolumn  #usermenu  li#icon06  a:hover{
+background:	#FCEFE0	 url(../img/icon05.gif) no-repeat left 5px;
+
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon07] a{
+background:	 url(../img/icon06.png) no-repeat left top !important;}
+
+
+#leftcolumn  #usermenu  li#icon07  a{
+background:		 url(../img/icon06.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=leftcolumn]  [id=usermenu]  li[id=icon07] a:hover{
+background:	#FCEFE0  url(../img/icon06.png) no-repeat left top !important;}
+
+#leftcolumn  #usermenu  li#icon07  a:hover{
+background:	#FCEFE0	 url(../img/icon06.gif) no-repeat left 5px;
+
+}
+
+
+
+
+
+#leftcolumn  #usermenu a {
+line-height: 250%; 
+display: block; 
+width: 200px;
+margin: 0; 
+padding: 0;
+ }
+ 
+ 
+ 
+
+
+
+/* ======= 中間區塊內容 ======= */
+
+#centercolumn {
+width: 705px;
+font-size:1.0em;
+ background: url(../img/) no-repeat   left  top;
+ height: 585px;
+ line-height: 220%;
+ overflow: hidden;
+ overflow: hidden;
+}
+#centercolumn .head{
+padding: 0px 5px 0px 5px !important; 
+height: 42px;
+vertical-align: middle;
+}
+
+
+#centerCcolumn th, 
+#bottomCcolumn th{
+ background:	 #92BD0C	 url(../img/Community020.jpg) repeat-x   left  top;
+color: #FFFFFF !important; 
+height: 42px;
+}
+
+
+
+#centerCcolumn  img, 
+#bottomCcolumn  img{
+max-width: 630px;
+}
+
+#centercolumndivtop{
+ background: url(../img/Community_24.jpg) no-repeat   left  top;
+
+}
+
+#centercolumn h3{
+font-size: 1.2em;
+ font-weight: normal;
+}
+
+#centercolumn  h3:first-letter{
+color: #11686F;
+} 
+
+
+
+
+
+
+#centercolumn  #msg_results table.outer {width: 650px;
+
+background:		 url(../img/) repeat-x   left  top;
+
+ }
+
+
+
+
+#centerCcolumn, #bottomCcolumn {
+font-size:105%;
+padding: 0;
+}
+
+
+
+[id=centerCcolumn] [class=blockTitle], 
+[id=bottomCcolumn] [class=blockTitle] {
+background:	 url(../img/Community_24.png) no-repeat left top !important;
+}
+
+
+
+
+#centerCcolumn .blockTitle, 
+#bottomCcolumn .blockTitle {
+background:	 url(../img/Community_24a.jpg) no-repeat left top;
+padding: 25px  0   0   39px; 
+color: #0C0C0C; 
+overflow: hidden;
+height: 44px;
+width: 716px;
+overflow: hidden;
+}
+
+
+
+[id=centerCcolumn] [class=blockContentbottom], 
+[id=bottomCcolumn] [class=blockContentbottom]{
+background:	 url(../img/Community_34.png) no-repeat left top !important;
+}
+
+
+#centerCcolumn .blockContentbottom, 
+#bottomCcolumn .blockContentbottom {
+background:	 url(../img/Community_34.jpg) no-repeat left top;
+height: 40px;
+width: 716px;
+}
+
+
+
+[id=centerCcolumn] [class=blockContent], 
+[id=bottomCcolumn] [class=blockContent]{
+background:	 url(../img/Community_27.png) repeat-y left top !important;
+} 
+
+
+#centerCcolumn .blockContent, 
+#bottomCcolumn .blockContent {
+background:	 url(../img/Community_27.jpg) repeat-y left top;
+padding: 10px 70px 10px 40px;
+color:                 #686667;
+min-height:  50px;  
+width: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  ==========置中區塊Cal模組 =========*/
+/
+#centerCcolumn  .blockContent  table,
+#bottomCcolumn  .blockContent  table{
+width: 100% !important;
+overflow: hidden;
+}
+
+#centerCcolumn  .blockContent  table td,
+#bottomCcolumn  .blockContent  table td{
+ height: 15px;
+
+ 
+
+}
+
+
+
+
+#centerCcolumn  .blockContent  table td span.calweekname,
+#bottomCcolumn  .blockContent  table td span.calweekname{
+ display: block;
+ padding-top: 10px;
+}
+
+
+ 
+
+
+
+/*
+
+
+#centerCcolumn   tr.odd  td img,
+#centerCcolumn    tr.even td img,
+#bottomCcolumn  tr.odd  td img,
+#bottomCcolumn   tr.even td img{
+margin:   6px   0   0  0;
+}*/
+
+
+
+
+
+
+
+
+/* ======= 中左中右區塊內容 ======= */
+
+
+
+
+#centerLcolumn, 
+#bottomLcolumn{
+width: 44%;
+margin:   0px;
+padding-top: 10px;	
+overflow: hidden;
+font-size:105%;
+
+}
+#centerLcolumn img, 
+#bottomLcolumn img{
+max-width: 280px;
+}
+
+
+#centerLcolumn th, 
+#bottomLcolumn th{
+ background:		#92BD0C url(../img/Community023.jpg) repeat-x   left  top;
+color: #FFFFFF !important; 
+vertical-align: middle;
+height: 42px;
+}
+
+
+
+
+
+
+/*  ==========中左區塊Cal模組 =========*/
+
+#centerLcolumn  .blockContent  table,
+#bottomLcolumn  .blockContent  table{
+width: 270px ;
+overflow: hidden;
+}
+
+#centerLcolumn  .blockContent  table td,
+#bottomLcolumn  .blockContent  table td{
+ height: 15px;
+ border: solid 1px #E0E0E5 !important;
+ 
+
+}
+
+
+
+#centerLcolumn  .blockContent  table td span.calweekname,
+#bottomLcolumn  .blockContent  table td span.calweekname{
+ display: block;
+ padding-top: 10px;
+}
+
+
+
+ 
+ 
+ 
+/*  ==========中右區塊Cal模組 =========*/
+
+#centerRcolumn  .blockContent  table,
+#bottomRcolumn  .blockContent  table{
+width: 270px !important;
+border: solid 1px #DBDBE0 !important;
+overflow: hidden;
+}
+
+#centerRcolumn  .blockContent  table td,
+#bottomRcolumn  .blockContent  table td{
+ height: 15px;
+ border: 1px dotted Silver !important;
+}
+
+
+
+
+#centerRcolumn  .blockContent  table td span.calweekname,
+#bottomRcolumn  .blockContent  table td span.calweekname{
+ display: block;
+ padding-top: 10px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+#centerRcolumn, 
+#bottomRcolumn {
+width: 50%;
+margin:   0px;
+padding-top: 10px;	
+overflow: hidden;
+font-size:105%;
+}
+
+#centerRcolumn img, 
+#bottomRcolumn img{
+max-width: 280px;
+}
+
+
+#centerRcolumn th, 
+#bottomRcolumn th{
+ background:		#92BD0C url(../img/Community023.jpg) repeat-x   left  top;
+color: #FFFFFF !important; 
+vertical-align: middle;
+height: 42px;
+}
+
+
+[id=centerLcolumn] [class=blockTitle], 
+[id=bottomLcolumn] [class=blockTitle]{
+background:	 url(../img/Community_31.png) no-repeat left top !important;
+}
+
+
+
+
+
+#centerLcolumn .blockTitle, 
+#bottomLcolumn .blockTitle{
+background:	 url(../img/Community_31.jpg) no-repeat left top;
+width: 310px;
+color: #0C0C0C; 
+font-weight: bold;
+height: 53px;
+padding: 17px 0px 0px 43px;
+overflow: hidden;
+}
+
+
+
+[id=centerRcolumn] [class=blockTitle], 
+[id=bottomRcolumn] [class=blockTitle]{
+background:	 url(../img/Community_31.png) no-repeat left top !important;
+}
+
+
+#centerRcolumn .blockTitle, 
+#bottomRcolumn .blockTitle{
+background:	 url(../img/Community_31.jpg) no-repeat left top;
+width: 319px;
+color: #0C0C0C; 
+font-weight: bold;
+height: 53px;
+padding: 17px 0px 0px 39px;
+overflow: hidden;
+}
+ 
+
+
+[id=centerLcolumn] [class=blockContent],
+[id=bottomLcolumn] [class=blockContent]{
+background:	 url(../img/Community_37.png) repeat-y left top !important;
+}
+
+
+#centerLcolumn .blockContent,
+#bottomLcolumn .blockContent{
+width: 293px;
+background:	 url(../img/Community_37.jpg) repeat-y left top;
+padding: 10px 30px 10px 40px;
+color:                 #686667;
+min-height:  100px;  
+overflow: hidden;
+}
+
+
+
+[id=centerRcolumn] [class=blockContent],
+[id=bottomRcolumn] [class=blockContent]{
+background:	 url(../img/Community_37.png) repeat-y left top !important;
+}
+
+ 
+#centerRcolumn .blockContent,
+#bottomRcolumn .blockContent{
+width: 293px;
+background:	 url(../img/Community_37.jpg) repeat-y left top;
+padding: 10px 65px 10px 40px;
+color:                 #686667;
+min-height:  100px;  
+overflow: hidden;
+}
+
+
+
+
+[id=centerLcolumn] [class=blockContentbottom], 
+[id=centerRcolumn] [class=blockContentbottom],
+[id=bottomLcolumn] [class=blockContentbottom], 
+[id=bottomRcolumn] [class=blockContentbottom]{
+background:	 url(../img/Community_41.png) no-repeat left top !important;
+}
+
+
+
+
+#centerLcolumn .blockContentbottom, 
+#centerRcolumn .blockContentbottom,
+#bottomLcolumn .blockContentbottom, 
+#bottomRcolumn .blockContentbottom{
+background:	 url(../img/Community_41.jpg) no-repeat left top;
+height: 52px;
+
+}
+
+
+
+
+/* ======= 右區塊內容 ======= */
+
+#rightcolumn {
+position:              relative;  
+top: -50px;
+padding: 10px; 
+line-height: 180%;
+ width:  248px;
+ overflow: hidden;
+}
+
+#rightcolumn  th {
+height: 42px;
+ background:		#92BD0C url(../img/Community023.jpg) repeat-x   left  top;
+color: #FFFFFF !important; 
+vertical-align: middle;}
+
+
+
+#rightcolumn li { 
+float: none !important;
+}
+
+
+
+#rightcolumn div.blockContent {
+padding: 0px 25px 0px 28px;
+font-size:0.9em;
+color: #4C4C4C;
+}
+
+
+#rightcolumn  h3:first-letter{
+color: #F16D1B;
+
+} 
+#rightcolumn  h3{
+ font-weight: normal;
+}
+
+
+
+[id=rightcolumn]  [class=blockTitle]{
+background:	 url(../img/Community_05.png) no-repeat 15px bottom !important;
+}
+
+
+#rightcolumn .blockTitle{
+display: block;
+background:	 url(../img/Community_05.gif) no-repeat 15px bottom;
+line-height: 280%;
+padding: 0px  0   0px   28px; 
+}
+
+
+#rightcolumn div.blockContent  a{
+color: #3D3A37;
+}
+
+
+#rightcolumn div.blockContent  a:hover{
+color: #F16B26;
+
+}
+
+#rightcolumn  table.outer .odd  input{
+margin-top: 4px !important;
+}
+/*  ====右區塊主選單按鈕=====   */
+
+#rightcolumn  td#mainmenu a.menuTop {
+line-height: 250%; 
+display: block; 
+margin:  0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_ends.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+
+#rightcolumn  td#mainmenu  a.menuTop:hover{
+background:			#F9E2C7	 url(../img/button_ends.gif) no-repeat  4px 8px ;
+border-right: 6px solid #F6700E;
+}
+
+
+
+
+#rightcolumn  td#mainmenu a.menuMain {
+line-height: 250%; 
+display: block; 
+margin: 0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_nexts.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+#rightcolumn  td#mainmenu a.menuMain:hover{
+background:	#F9E2C7 url(../img/button_nexts.gif) no-repeat   4px 8px;
+border-right: 6px solid #F6700E;
+}
+
+
+
+#rightcolumn td#mainmenu a.menuSub {
+line-height: 250%; 
+display: block; 
+margin-left:  15px; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/Community024.jpg) no-repeat  2px 7px;
+padding:              0   0   0   22px  !important;
+}
+
+#rightcolumn  td#mainmenu a.menuSub:hover{
+background:			#EFF3FC	 url(../img/Community021a.jpg) no-repeat  4px 7px ;
+}
+
+
+
+
+/*  ====右區塊使用者選單按鈕=====   */
+#rightcolumn  #usermenu  li{
+border-bottom: 1px solid #A5A5A5 !important; 
+float: none;
+}
+/*
+#leftcolumn  #usermenu  #pa{
+vertical-align: top;
+}*/
+
+/* ======= BIOCK 使用者選單按鈕圖示 ======= */
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon01]{
+background:		 url(../img/icon07.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon01{
+background:		 url(../img/icon07.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 38px;
+}
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon02] a{
+background:		 url(../img/icon03.png) no-repeat left top !important;
+}
+
+
+#rightcolumn #usermenu  li#icon02  a{
+background:		 url(../img/icon03.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon02] a:hover{
+background:	#EFF3FC	 url(../img/icon03.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon02  a:hover{
+background:	#EFF3FC	 url(../img/icon03.gif) no-repeat left top;
+
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon03] a{
+background:		 url(../img/icon02.png) no-repeat left top !important;
+}
+
+
+#rightcolumn #usermenu  li#icon03  a{
+background:		 url(../img/icon02.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon03] a:hover{
+background:	#EFF3FC	 url(../img/icon02.png) no-repeat left top !important;
+}
+
+
+#rightcolumn #usermenu  li#icon03  a:hover{
+background:	#EFF3FC	 url(../img/icon02.gif) no-repeat left top;
+
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon04] a{
+background:		 url(../img/icon01.png) no-repeat left top !important;
+}
+
+
+#rightcolumn #usermenu  li#icon04  a{
+background:		 url(../img/icon01.gif) no-repeat left top;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon04] a:hover{
+background:	#EFF3FC	 url(../img/icon01.png) no-repeat left top !important;
+}
+
+
+#rightcolumn #usermenu  li#icon04  a:hover{
+background:	#EFF3FC	 url(../img/icon01.gif) no-repeat left top;
+}
+
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon05] a{
+background:		 url(../img/icon04.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon05  a{
+background:		 url(../img/icon04.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon05] a:hover{
+background:	#EFF3FC	 url(../img/icon04.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon05  a:hover{
+background:	#EFF3FC	 url(../img/icon04.gif) no-repeat left 5px;
+
+}
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon06] a{
+background:		 url(../img/icon05.png) no-repeat left top !important;
+}
+
+
+
+#rightcolumn #usermenu  li#icon06  a{
+background:		 url(../img/icon05.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+
+}
+
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon06] a:hover{
+background:	#EFF3FC	 url(../img/icon05.png) no-repeat left top !important;
+}
+
+
+
+
+#rightcolumn #usermenu  li#icon06  a:hover{
+background:	#EFF3FC	 url(../img/icon05.gif) no-repeat left 5px;
+
+}
+
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon07] a{
+background:		 url(../img/icon06.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon07  a{
+background:		 url(../img/icon06.gif) no-repeat left 5px;
+height:         35px;  
+padding:10px 0px 0px 36px;
+}
+
+[id=rightcolumn]  [id=usermenu]  li[id=icon07]  a:hover{
+background:	#EFF3FC	 url(../img/icon06.png) no-repeat left top !important;
+}
+
+#rightcolumn #usermenu  li#icon07  a:hover{
+background:	#EFF3FC	 url(../img/icon06.gif) no-repeat left 5px;
+
+}
+
+
+#rightcolumn  #usermenu a {
+line-height: 250%; 
+display: block; 
+width: 200px;
+margin: 0; 
+padding: 0;
+ }
+ 
+ 
+
+
+
+/* ======= 浮動選單 ======= */
+
+#leftfloatdivimg{
+}
+
+[id=leftfloatdivimg]{
+background:			 url(../img/neofloat03.png)  no-repeat  left top !important;
+}
+
+
+#leftfloatdiv_menu{
+width: 95px;
+padding:33px 0px 4px 5px;
+position:absolute;
+z-index:3001;
+}
+
+
+
+#leftfloatdiv_menu a{
+height: 28px;
+padding-left: 15px;
+display:block;
+color: #212121;
+border-bottom:1px dotted #ffffff;
+line-height:190%;
+font-size: 0.9em;
+}
+
+[id=leftfloatdiv_menu] a:hover{
+ background:	 url(../img/neofloat02.png)  repeat-x  left center ;
+}
+
+#leftfloatdiv_menu a:hover {
+	 color: #FFFFFF;
+	
+	 
+}
+
+
+#skypelogo{
+padding-left: 16px;
+height:  48px;
+width: 48px; 
+}
+
+#skypelogo  a{
+background:			 url(../img/neofloat04.png) no-repeat  left  top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:            48px;
+ }
+ #skypelogo  a:hover{
+background:			 url(../img/neofloat04.png) no-repeat  1px  1px;
+ }
+ 
+#msnlogo{
+padding-left: 16px;
+height:  48px;
+width: 48px; 
+}
+
+#msnlogo  a{
+background:			 url(../img/neofloat05.png) no-repeat  left  top;
+ display:            block; 
+ overflow:           hidden;
+ height:                0px;
+ padding-top:            48px;
+ }
+ 
+ #msnlogo  a:hover{
+ background:			 url(../img/neofloat05.png) no-repeat  1px  1px;
+ }
+ 
+ 
+ 
+
+/*     -----block-themes----    */
+ 
+ #waiting{
+ width: 100%;
+ }
+ 

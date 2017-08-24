@@ -1,0 +1,9 @@
+this template builed by kris ( www.xoofoo.org ) 
+and we add localization system for vervion 2.3.3 ( localitztion system added by phppp in xoops core ) 
+
+chnages :
+1- all language folders move to 
+     themes/morphogenesis/language/<lang-name>/main.php
+2- you can have a local css and java code in local files ( for each language )
+     themes/morphogenesis/language/<lang-name>/style.css
+     themes/morphogenesis/language/<lang-name>/script.js

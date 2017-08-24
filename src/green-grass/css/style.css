@@ -1,0 +1,280 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.1 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : style.css - 12 01 2008 */
+
+/* IMPORTANT !!! :
+	propriety semantic order =
+	position box,
+	width,
+	heigth,
+	margin,
+	background-color,
+	background-image,
+	padding,
+	content (color, style font, ...),
+	border,
+	 ... */
+
+/* incorporation de feuilles de styles complmentaires */
+@import url(content.css);
+@import url(content-data.css);
+@import url(blocks.css);
+@import url(forms.css);
+
+/* reset des slecteurs */
+* { margin: 0; padding: 0; border: 0; outline: none; text-decoration: none;font-family: sans-serif; font-size: 1em; font-weight: normal; font-style: normal;}
+
+
+
+/* beginning of the applicable styles */
+html, body {
+	margin:							0;
+	font-family:					"Lucida Grande", Verdana, sans-serif;
+	font-size:						10pt;
+	padding: 0;
+	background: #000000 url(../img/img01.jpg) repeat-x top center;
+	color: #8C8C8C;
+}
+body.site_closed form {	padding: 1em 35%;}
+
+/* ======= Body box ======= */
+#xo-wrapper {}
+#xo-bgstatic {}
+#xo-canvas {
+	width: 760px;
+	background-color: 			#000000;
+	color:							#333;
+	position: relative;
+	margin: 0 auto; 
+	padding: 0;
+}
+body.theme-dialog #xo-canvas {
+	margin:							0 6px;
+}
+/*================= Content zone ===================*/
+#xo-canvas-content {
+	background-color: 			#000000;
+	color:							#fff;
+	padding: 12px;
+}
+#xo-page {
+	background-color:				#000000;
+	color:							#fff;
+}
+#xo-canvas-rightcolumn {padding: .5em;}
+#xo-content {
+	clear:							both;
+	margin:							0;
+	background-color:				#000;
+	padding:							.5em;
+	color:							#fff;
+}
+#xo-uptop {
+	margin: 							0;
+	background-color: 			transparent;
+	padding-top: 					5px;
+	color: 							inherit;
+	font-size: 						.9em;
+	text-align:						right;
+}
+#xo-uptop a {
+	background-color: 			inherit;
+	color: 							#9BDB18;
+}
+#xo-uptop a:hover {
+background-color: 				inherit;
+color: 								#E6B715;
+}
+#xo-logger-output { font-size:	.8em;}
+/* ============== header ================= */
+#xo-header {}
+#xo-top {
+	height: 							32px;
+	background-color:				#E2E2E2;
+	color: 							#333;
+}
+/* ---------- Banner ---------- */
+#xo-banner {
+	clear:							both;
+	position:						relative;
+	z-index:							10;
+
+	width: 760px;
+	height: 288px;
+	margin: 0 auto;
+	background: url(../img/img02.jpg) no-repeat right top;
+}
+#xo-banner.commercial {
+	height: 288px;
+}
+body.theme-dialog #xo-banner {
+	height:							48px;
+	padding-top:					6px;
+	padding-left:					10px;
+}
+#xo-banner-ad {
+	position:						absolute;
+	top:								15px;
+	right:							60px;
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+/*---------------------- site title in the header ----------------------------*/
+#xo-site-title {
+	position: 						relative;
+	top: 								10px;
+	background-color: 			transparent;
+	padding: 						10px 0 0 20px;
+	font-family:	 				"Lucida Grande","Trebuchet MS", Verdana, sans-serif;
+	font-size:						2.2em;
+	font-weight:					bold;
+}
+a#xo-site-title {
+	background-color: 			inherit;
+	color:							#E6B715;
+}
+a:hover#xo-site-title {
+	background-color: 			inherit;
+	color: 							#776D6D;
+}
+#xo-site-title.commercial {
+	margin: 							0 20px;
+	padding: 						10px 0 0 0;
+ }
+ #xo-site-title.commercial a:hover {
+	background-color: 			inherit;
+	color:							#E6B715;
+}
+/*----------------------- slogan in the header ------------------------*/
+#xo-site-slogan {
+	position: 						relative;
+	top: 								10px;
+	padding-left: 					70px;
+	font-style: 					italic;
+}
+#xo-site-slogan.commercial {}
+/*------------------------ Logo in the header ----------------------------*/
+#xo-main-logo {
+	position: 						relative;
+	top: 								15px;
+	background: 					inherit;
+	padding-left: 					10px;
+	color:							#666;
+	}
+#xo-main-logo.commercial {}
+/*-------- style forms in the header-----------*/
+#xo-banner form {
+	display:							inline;
+	margin:							0;
+}
+#xo-banner input {
+	width:							8em;
+	margin:							0 0 0 2px;
+	background-color:				#E2E2E2;
+	color:							#333;
+}
+/*=============== Style for the Footer  ====================*/
+#xo-footer {
+	clear: both;
+	width: 760px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	background: url(../img/img05.gif) no-repeat left top;
+	text-align: center;
+	font-size: 12px;
+	color: #52640A;
+}
+body.theme-dialog #xo-footer { padding: .2em .5em; font-size:	.8em;}
+#xo-footer a {
+	background-color:				inherit;
+	color: 							#666;
+	text-decoration: 				none;
+}
+#xo-footer a:hover {
+	background-color:				inherit;
+	color: 							#000;
+	text-decoration: 				underline;
+}
+#xo-footer .copyright {
+    text-align: center;
+	position:						absolute;
+	display: 						inline;
+	background-color:				transparent;
+	padding-top: 					5px;
+	color: 							inherit;
+	font-size: 						0.9em;
+	font-weight: 					normal;
+	text-decoration: 				none;
+	line-height: 					15px;
+}
+#xo-footer .rss {
+	float: 							right;
+	right: 							125px;
+	background-color: 			transparent;
+	padding-top :					10px;
+	color: 							inherit;
+}
+#xo-footer .rss a:hover {	text-decoration: none;}
+#xo-footer a#rss, #xo-footer a#rss:hover {
+	background: 					transparent	url(../icons/action/feed.png) no-repeat center right;
+	padding-right: 				16px;
+	color: 							inherit;
+	text-decoration: 				none;
+}
+
+/*========== Main menu block =============*/
+#mainmenu a {
+	display: 						block;
+	margin: 							0;
+	padding: 						1px;
+	font-weight: 					500;
+	color:#CBF771;
+}
+#mainmenu a:hover {
+	text-decoration:				none !important;
+		color:#E6B715;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {
+	background-color:				inherit;
+	padding-left: 					20px;
+	color:							#fff;
+	font-size:						.8em;
+	font-style: 					italic;
+}
+#mainmenu a.menuSub:hover {
+	background-color: 			inherit;
+	color:							#9BDB18;
+}
+
+/*============ Usermenu block ============*/
+#usermenu a {
+	display: 						block;
+	background-color: 			inherit;
+	padding: 						2px;
+	color:							#9BDB18;
+	font-size: 						0.8em;
+	font-weight: 					normal;
+	line-height: 					1em;
+}
+#usermenu a:hover {
+	background-color: 			inherit;
+	padding-left: 					1em;
+	color:							#fff;
+	font-style: 					italic;
+	text-decoration:				none !important;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: 			#333;
+	color: 							#ccc;
+}
+
+/*=========== for old templates system ============*/
+#usermenu a, #mainmenu a {	display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}
+
+
+

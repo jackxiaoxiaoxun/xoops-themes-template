@@ -1,0 +1,50 @@
+<div id="header">
+<div id="headerleft">
+<div id="headerlogo"><a href="<{xoAppUrl /}>"><img src="<{xoImgUrl img/oss_02.jpg}>"  alt="<{$xoops_sitename}>" /></a></div>
+<div id="headermenu">
+
+	<{if $xoops_showrblock}>
+		<div id="rightcolumn">
+		<!-- Start right blocks loop -->
+	<{foreach item=block from=$xoBlocks.canvas_right}>
+			<{includeq file="$theme_name/theme_blockright.html"}>
+		<{/foreach}>
+		<!-- End right blocks loop -->
+		</div>
+	<{/if}>
+</div>
+</div>
+<div id="headerright">
+<div id="headerrighta"><{includeq file="$theme_name/usera.html"}></div>
+<div id="headerrightb">
+<div id="headerrightbl">
+<ul>
+<li class="b1"><a href="<{xoAppUrl /}>">返回首頁</a></li>
+<li class="b2"><a href="<{xoAppUrl /modules/news/}>">最新消息</a></li>
+<li class="b3"><a href="<{xoAppUrl /modules/newbb/}>">網路論壇</a></li>
+<li class="b4"><a href="<{xoAppUrl /modules/mylinks/}>">網站連結</a></li>
+<li class="b5"><a href="<{xoAppUrl /modules/contact/}>">連絡我們</a></li>
+</ul>
+</div>
+<div id="headerrightbr">
+<ul>
+<{if $xoops_isuser}>
+ <li> 
+    <a href="<{xoAppUrl /user.php op=logout}>"  ><img src="<{xoImgUrl icons/users/exit.png}>" alt="登出網站"/></a></li>
+<{else}>
+<li ><a href="<{xoAppUrl /register.php}>">註冊帳號</a></li>
+<li ><a href="<{xoAppUrl /user.php#lost}>">忘記密碼</a></li>
+
+<{/if}>
+</ul>
+</div>
+</div>
+<div id="headerrighttop">
+<div id="headerrightd"><a title="<{$xoops_sitename}>"  href="<{xoAppUrl /}>">  <{$xoops_sitename}></a></div>
+<div id="headerrighte"><a href="<{xoAppUrl /}>">  <{$xoops_sitename}></a></div>
+</div>
+<div id="headerrightc">  <{includeq file="$theme_name/flash/flashad.html"}></div>
+ <div style=" display:none;"><a href="<{xoAppUrl /}>" title="返回首頁" ><img src="<{xoImgUrl img/oss_19.jpg}>"  alt="返回首頁" /></a></div>
+</div>
+</div>
+

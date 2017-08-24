@@ -1,0 +1,23 @@
+<div id="footerbar">
+<{includeq file="$theme_name/footlogo.html"}>
+
+<div id="footerbarcd"><strong><a  title="<{$smarty.const._THEME_footera1}>" href="http://www.lm.club.tw/" target="_blank"><{$smarty.const._THEME_footera1}></a></strong></div>
+<div id="footerbarcc"><a  href="http://creativecommons.org/licenses/by-sa/2.5/tw/" title="<{$smarty.const._THEME_footera2}>" target="_blank" ><{$smarty.const._THEME_footera2}></a></div>
+<div id="footerbarr">
+<div id="admin">
+<{if $xoops_isuser}>
+</span>
+<a title="<{$smarty.const._THEME_footera3}>"  href="<{xoAppUrl /user.php?op=logout}>"><{$smarty.const._THEME_footera3}></a>
+<{else}>
+<a title="<{$smarty.const._THEME_footera4}>"  href="<{xoAppUrl /user.php}>"><{$smarty.const._THEME_footera4}></a>
+<{/if}>
+<span><a title="<{$smarty.const._THEME_footera5}>"  href="<{xoAppUrl /modules/liaise/index.php?form_id=4}>"><{$smarty.const._THEME_footera5}></a></span>
+<span><a title="<{$smarty.const._THEME_footera6}>"  href="<{xoAppUrl /modules/tadnews/}>"><{$smarty.const._THEME_footera6}></a></span>
+<span><a title="<{$smarty.const._THEME_footera7}>"  href="<{xoAppUrl /}>"><{$smarty.const._THEME_footera7}></a></span>
+<{if $xoops_isadmin}><span><a title="<{$smarty.const._THEME_footera8}>" href="<{xoAppUrl /admin.php}>"><{$smarty.const._THEME_footera8}></a> </span>   <{/if}> 
+</div>
+<div id="xoops_footer"><{$xoops_footer}></div>
+</div>
+
+
+</div>

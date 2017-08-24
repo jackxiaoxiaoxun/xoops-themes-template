@@ -1,0 +1,233 @@
+/* ======= liput ======= */
+.xo-searchb  ul .xo-searchba  input,
+.blockContent  input[type=text], 
+.blockContent  input[type=password],
+#xo-userin  ul  li   input[type=text],
+#xo-userin  ul  li   input[type=password]
+{
+	margin: 					1px 0 0 0;
+	background:					#EDE9E8 url(../img/) repeat-x left bottom;
+	color:						#405A80;
+	font-size:					1.0em;
+	font-weight:				bold;
+	border-top:						1px solid #898989;
+	border-left:						1px solid #898989;
+	border-bottom:						1px solid #CCCCCC;
+	border-right:						1px solid #CCCCCC;
+	cursor: 					pointer;
+}
+.xo-searchb  ul .xo-searchba  input:HOVER, 
+.blockContent  input[type=text]:HOVER, 
+.blockContent  input[type=password]:HOVER,
+#xo-userin  ul  li   input[type=text]:HOVER,
+#xo-userin  ul  li   input[type=password]:HOVER{
+	background:					#D3CECD url(../img/) repeat-x left bottom;  
+	color: 						#333;
+	cursor:						pointer;
+}
+
+.even input[type=text],
+.odd input[type=text]{
+	margin: 					1px 0 0 0;
+	background:					#FFFFFF url(../img/) repeat-x left bottom;
+	color:						#808080;
+	font-size:					1.0em;
+	font-weight:				lighter;
+	border-top:						1px solid #898989;
+	border-left:						1px solid #898989;
+	border-bottom:						1px solid #CCCCCC;
+	border-right:						1px solid #CCCCCC;
+	cursor: 					pointer;
+}
+.even input[type=text]:HOVER,
+.odd input[type=text]:HOVER{
+	background:					#EFF4FC url(../img/) repeat-x left bottom;  
+	color: 						#333;
+	cursor:						pointer;
+}
+
+
+.xo-searchb  ul .xo-searchba  input{
+margin:             23px    0px    0    30px;  
+}
+
+.xo-searchb ul .xo-searchbb  input{
+margin:            15px  0    0    0px; 
+}
+
+div#content   div.cl_div  form input[type=button]{
+background:		 url(../img/ossb.png) repeat-x   left  top !important; 
+color:   #494949;
+letter-spacing:    0.1em;
+margin: 0 auto; /* 設定為自動調整邊界 */
+} 
+
+div#content  .foot select{
+width:   100px;
+}
+div#content td.odd  select {width:   100px;}
+
+
+
+
+/* =======TH共用 ======= */
+/*
+div#content  table.outer  th,
+div#content   #search  table  th,
+div#content  #userinfo  table  th{
+height: 40px;
+ background:			#FBCB8B url(../img/ossg1.png) repeat-x   left  top;
+}*/
+
+
+/* ======= 會員註冊頁面 ======= */
+div#content  #userinfo {
+margin: 0 ;
+width: 100%;
+line-height: 220%;
+font-size: 0.9em; 
+}
+div#content  span{
+line-height: 250%;
+}
+
+div#content  form#userinfo table  td.even{
+width:          60%
+}
+
+
+div#content select#timezone_offset    {
+color:                 #848180;
+width:          95%
+
+}
+
+
+
+
+div#content  form  table .head{
+width: auto;
+background:				#BEBEBE url(../img/) repeat-x left bottom;  
+}
+
+
+
+
+
+
+div#content  form  table  #disclaimer{
+width: 90%;
+color:                 #848180;
+}
+
+/* ======= 會員登入頁面 ======= */
+div#content   fieldset{
+line-height: 150%;
+}
+
+div#content   fieldset  legend{
+color:                 #5B8BB2;
+margin:    0;  
+
+}
+
+div#content    fieldset form{
+line-height: 300%;
+color:   #686667;
+}
+
+/* ======= 搜尋頁面 ======= */
+
+div#content   #search {
+}
+
+
+
+div#content   h3{
+margin: 0  0 10px  5px;
+color:    #5D8EB6;
+font-size:     1.2em;
+}
+
+
+div#content   h4{
+margin:  20px  5px;
+font-size:     1.1em;
+color:         #5D8EB6;
+}
+
+
+div#content     p{
+
+color:           #636262;
+margin:     15px  0;
+}
+
+/* ======= 會員頁面 ======= */
+div#content  table  .outer{
+line-height: 200%;
+}
+
+
+div#content #usernav  .outer .head{
+width: 20% !important;
+background:				#D3CECD url(../img/) repeat-x left bottom;  
+font-weight:        lighter;
+color:   #595959;
+padding: 5px;
+}
+
+
+
+
+
+div#content #usernav   .outer .even{
+text-align:  center;
+background:				#FFFFFF url(../img/ossiconb.jpg) no-repeat right center !important;
+color:  #5E5E5E;
+}
+
+
+div#content  table  .outer .odd{
+width: 60% !important;
+background:				#F2F2F2 url(../img/) repeat-x left bottom;  
+color:  #5E5E5E;
+text-align:  center;
+}
+
+
+/*      讀取頁面   */
+#divLoading{
+	width: 100%;
+	background:		 url(../img/) repeat left top;  
+    color: #000000;
+    position:              relative;    
+    top: 150px;
+}
+
+#divLoadingcenter{
+ 
+ 	border:1px #8D9799 solid;
+		background:				#F2F2F2 url(../img/) no-repeat left top;  
+			margin: 0 auto; /* 設定為自動調整邊界 */
+	text-align: center;  /* 設定靠左對齊 */
+width: 350px;
+
+padding:  30px;
+}
+
+#divLoading #img{
+margin: 0 auto; /* 設定為自動調整邊界 */
+	text-align: left; /* 設定靠左對齊 */
+width: 208px;
+height: 13px;
+		background:			url(../img/loadingAnimation.gif) no-repeat left top;  
+}
+
+
+div#content  #t   td{
+height: 30px;
+margin: 0px;
+padding: 0px;
+line-height: 100%; 
+}

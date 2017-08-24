@@ -1,0 +1,127 @@
+/*  
+main css by Kris
+URI : http://www.xoofoo.org
+*/
+/*========== listes dans les colonnes ==========*/
+.xo-canvas-column ul {
+	list-style-type:				none;
+	padding:							.5em;
+	margin:							0px;
+}
+.xo-canvas-column ul ul {
+	padding-top:					0em;
+	padding-bottom:				0em;
+	padding-left:					1em;
+
+}
+/* ====== format des cellules dans les colonnes ========*/
+.xo-canvas-column .outer, .xo-canvas-column .outer td {
+	background-color:				#f6f6f6;
+	border:							0px none;
+	color: 							#32529C;
+}
+.xo-canvas-column .outer, .xo-canvas-column .outer img {
+	border: 							0 !important;
+	padding:							0;
+	margin:							0;
+}
+/*===== Styles Colonne de Gauche =======*/
+#xo-canvas-leftcolumn .xo-block {
+	margin-right:					0px;
+}
+#xo-canvas-leftcolumn .xo-blocktitle {
+	padding-left:					6px;
+	padding-bottom:				5px;
+	background-color: 			inherit;
+	font-size:						1em;
+	font-weight:					bold;
+	text-align: 					center;
+	text-transform: 				uppercase;
+	}
+#xo-canvas-leftcolumn .xo-blockcontent {
+	min-height:						60px;
+	padding: 						2px 8px 10px;
+	background-color: 			inherit;
+}
+* html #xo-canvas-leftcolumn .xo-blockcontent { height: 110px;}
+#xo-canvas-leftcolumn .xo-blockcontent a {
+	background-color: 			inherit;
+}
+#xo-canvas-leftcolumn .xo-blockcontent a:hover {
+	background-color: 			inherit;
+}
+#xo-canvas-leftcolumn img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-leftcolumn img:hover {border: 1px solid #fff;}
+/*======== Styles Colonne de Droite ========*/
+#xo-canvas-rightcolumn {
+
+}
+#xo-canvas-rightcolumn a {
+	background-color: 			inherit;
+}
+#xo-canvas-rightcolumn a:hover {
+	background-color:				inherit;
+}
+#xo-canvas-rightcolumn .xo-blocktitle {
+	font-size:						1em;
+	font-weight:					bold;
+	color: 							#815E0B;
+	background-color: 			inherit;
+	text-align:						center;
+	text-transform: 				uppercase;
+}	
+#xo-canvas-rightcolumn .xo-blockcontent {
+	padding:							.5em;
+	background-color:				#f6f6f6;
+}
+#xo-canvas-rightcolumn img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-rightcolumn img:hover {border: 1px solid #fff;}
+/* ======= Styles du "Contenu Centre" ===========*/
+.xo-block ul {
+	margin:							0px;
+	padding:							0px;
+	list-style-type:				none;
+
+}
+#xo-page .xo-blockszone .xo-blocktitle {
+	font-size:						1.2em;
+	font-weight:					bold;
+	color:							#fff;
+	margin:							0px .5em;
+	padding:							0px .25em;
+	background-color: 			inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+	background-color:				#CCC;
+	padding:							.5em;
+	color:							#30302F;
+	text-align: 					justify;
+	padding: 1em;
+	border: 1px solid #470000;
+	color: #33527B;
+	-moz-border-radius: 25px;
+
+}
+#xo-page .xo-blockszone .xo-blockcontent img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-page .xo-blockszone .xo-blockcontent a {
+	background-color:				inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent a:hover {
+	background-color:				inherit;
+	text-decoration: 				underline;
+}
+
+
+

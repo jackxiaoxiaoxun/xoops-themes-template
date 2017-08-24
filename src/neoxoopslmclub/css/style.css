@@ -1,0 +1,550 @@
+﻿/*==========佈景製作：Neo設計工坊=======*/
+/*============設計師：徐嘉裕=========*/
+/*=========連絡電話：0931229118=========*/
+@import url(forms.css); 
+@import url(modules.css); 
+@import url(block.css); 
+@import url(contentpage.css); 
+
+
+*{	
+   font-family:		"Lucida Grande", Verdana, sans-serif  !important;  
+ *letter-spacing:               0em !important;  
+  letter-spacing:               0.1em ;  
+}
+
+html {
+SCROLLBAR-FACE-COLOR: #106B6E; /*捲軸顏色*/
+SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; /*捲軸左與上內邊框*/
+SCROLLBAR-SHADOW-COLOR: #FFFFFF; /*捲軸右與下內邊框*/
+SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; /*捲軸左與上外邊框*/
+SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF; /*捲軸右與下外邊框*/
+SCROLLBAR-ARROW-COLOR: #FFFFFF; /*捲軸箭頭*/
+SCROLLBAR-TRACK-COLOR: #EFEFEF; /*捲軸底色*/
+   }
+
+body {color: #000; 
+    background:			 url(../img/Community_01.jpg) repeat left top;
+  overflow: auto;
+       /* background-attachment:        fixed;*/
+ margin: 0; padding: 0;
+
+ 
+}
+#body{
+}
+
+strong{
+
+}
+
+table {width: 100%;  font-size: small; border-collapse:   collapse;}
+table td {padding: 0; border-width: 0; vertical-align: top; }
+
+a {color: #666666; text-decoration: none;  background-color: transparent;}
+a:hover {color: #ff6600;}
+
+h1 {font-size: 130%; }
+h2 {}
+
+h3 { margin: 0px;
+padding: 0px;
+font-size: 100%;
+font-weight: normal;
+
+}
+
+h4 {}
+h5 {}
+ul { margin: 0; 
+    padding: 0; 
+   list-style: none; }
+ol { margin: 0; padding: 0;  list-style: none; }
+li { margin: 0; }
+
+input.formButton {}
+
+div#content  .item {
+border: none;
+ background:			#FFFFFF url(../img/) repeat-x   left  top; 
+}
+
+
+div#content  .item  a{
+  color: #E2EBFF;
+}
+
+div#content  .itemHead {
+   padding: 5px   0   0  5px; 
+   font-size: 1.1em; 
+   height: 38px;
+   background:		url(../img/th01.png) repeat-x   left  top; 
+   color: #808080;
+   font-weight: bold; 
+   }
+   
+   
+div#content  .itemInfo {
+text-align: right; 
+padding: 3px; 
+ height: 30px;
+ border-bottom:  1px  solid  #A2C14F;
+    background:	#EFEFEF	url(../img/) repeat-x   left  top; 
+}
+
+
+div#content  .itemTitle a {
+font-size: 1.1em; 
+font-weight: bold; 
+font-variant: small-caps; 
+   color: #808080;
+background-color: transparent;}
+
+div#content  .itemTitle a:hover{
+   color: #F56D31;
+} 
+
+
+div#content  .itemPoster {
+ font-size: 90%; 
+
+
+}
+/*
+#cleara{
+clear: both;
+}*/
+
+
+div#content  .itemPostDate {font-size: 90%; }
+div#content  .itemStats {font-size: 90%; }
+div#content  .itemBody {
+  padding: 5px;
+  font-size: 1.0em; 
+letter-spacing:               0.1em;
+line-height: 220%;
+ background:	 #FFFFFF url(../img/) no-repeat right 4px;
+}
+
+
+div#content  .itemText img{
+max-width:550px;}
+
+div#content    p.itemText{
+ background:	 #FFFFFF url(../img/) no-repeat right 4px !important;
+   padding-bottom: 15px; 
+   color:    #686667;
+  }
+  
+
+  
+div#content  .itemText:first-letter {
+font-size: 120%; 
+font-weight: bold;
+color:    #5B8BB2;
+}
+div#content  .itemFoot {
+text-align: right; 
+padding: 0px; 
+background:			#efefef url(../img/oss003.png) repeat-x   left  top; 
+ border-top:  1px  solid  #A2C14F;
+}
+
+div#content  .itemPoster  a,
+div#content   .itemFoot  a{
+color:    #6D798E;
+}
+
+
+div#content  .itemPoster  a:hover,
+div#content   .itemFoot  a:hover{
+color:    #111111;
+}
+
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+
+table th {
+ color: #808080 ; 
+ padding : 0  0    0    5px; 
+ vertical-align : middle; 
+ font-size:   1.0em;
+background:			 url(../img/oss_33.png) no-repeat    left  top;
+ /*width: 665px;
+ height: 43px;*/
+ }
+ 
+
+/* ======= 搜尋區塊內容 ======= */
+td#leftcolumn  .searchtitle  div:first-letter{
+color: #808080; 
+}
+
+td#leftcolumn   .searchtitle{
+margin:          10px   0     0    0;
+padding: 0px  0   0   30px; 
+}
+
+td#leftcolumn  #xo-search{
+letter-spacing:               0.1em;
+}
+
+td#leftcolumn  #xo-search  .xo-searcha{
+height:      38px;
+}
+
+
+td[id="leftcolumn"]  div[id="xo-search"]  div[class="xo-searchb"]{
+width:              261px;
+background:			 url(../img/oss_33.png) no-repeat    left  top;
+height:      88px;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb{
+width:               261px;
+background:			 url(../img/oss_33.gif) no-repeat   left  top;
+height:      88px;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb  ul{
+margin:            0;
+padding:           0;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb  li{
+float:            left;
+margin:            0;
+padding:           0;
+}
+
+#xo-search .xo-searchb  .xo-searchbottom{
+clear:                    both;
+margin:            3px   0   0  30px;
+ }
+
+/* ======= 共用部分======= */
+/*
+div#content   table.outer  td.odd, 
+div#content   table.outer  td.even{
+border-bottom: 1px dotted Silver;
+}
+
+div#content  ul, 
+#centerLcolumn ul, 
+#bottomLcolumn ul, 
+#centerRcolumn ul, 
+#bottomRcolumn ul, 
+#centercolumn  ul,
+td#leftcolumn ul{
+margin:       0 !important;
+padding:      0 !important;
+ list-style: none !important; 
+  clear: both !important; 
+}
+
+
+div#content  li,
+#centerLcolumn li, 
+#bottomLcolumn li, 
+#centerRcolumn li, 
+#bottomRcolumn li, 
+#centercolumn  li,
+td#leftcolumn li{
+margin:       0 ;
+padding:      0 ;
+ list-style: none !important; 
+
+}
+
+
+div#content  a,
+#bottomCcolumn li  a,
+#centercolumn li  a,
+#xo-search .xo-searchb  .xo-searchbottom a,
+td#leftcolumn li  a{
+color:               #686667;
+}
+
+div#content  a:hover,
+#bottomCcolumn li  a:hover,
+#centercolumn li  a:hover,
+#xo-search .xo-searchb  .xo-searchbottom a:hover,
+td#leftcolumn li  a:hover{
+color:  #3F5A7A;
+}
+
+
+#centerLcolumn ul div.blockTitle:first-letter,
+#bottomLcolumn ul div.blockTitle:first-letter,
+#centerLcolumn ul div.blockTitle:first-letter,
+#centerRcolumn ul div.blockTitle:first-letter,
+#bottomCcolumn ul div.blockTitle:first-letter,
+#centerCcolumn ul div.blockTitle:first-letter,
+td#leftcolumn ul div.blockTitle:first-letter{
+color: #808080; 
+}
+
+
+#bottomRcolumn  .blockContent_r  span,
+#bottomLcolumn  .blockContent_l  span,
+#bottomCcolumn .blockContent  span, 
+#centerLcolumn .blockContent  span, 
+#centerRcolumn .blockContent  span, 
+#centerCcolumn .blockContent  span,
+td#leftcolumn  .blockContent span{
+border-bottom:    1px  dotted  silver;
+}
+
+*/
+
+/* ======= 內容頁面 ======= */
+
+
+
+[id=contenttop]{
+background:	 url(../img/Community_24a.png) no-repeat left top !important;
+}
+
+
+
+
+#contenttop{
+background:	 url(../img/Community_24a.jpg) no-repeat left top;
+padding: 25px  0   0   39px; 
+color: #0C0C0C; 
+height: 44px;
+width: 716px;
+}
+
+
+div[id=content] {
+background:	 url(../img/Community_27.png) repeat-y left top !important;
+}
+
+div#content {
+width: 651px;
+font-size:105%;
+line-height: 220%;
+color:       #686667;
+overflow: hidden;
+background:	 url(../img/Community_27.jpg) repeat-y left top;
+padding: 10px 30px 10px 35px;
+color:                 #686667;
+}
+
+[id=contentbottom]{
+background:	 url(../img/Community_34.png) no-repeat left top !important;
+}
+
+#contentbottom{
+background:	 url(../img/Community_34.jpg) no-repeat left top;
+height: 40px;
+width: 716px;
+ padding-bottom: 20px;
+}
+
+
+div#content  table th{
+background: 	 url(../img/th01.png) repeat-x   left  top; 
+height: 43px;
+
+}
+#contenttop  h3 a{
+color: #0C0C0C !important;
+}
+
+
+#contenttop  h3  a:first-letter{
+color: #187376 !important;
+
+} 
+div#content  table.outer  ul{
+padding-left: 50px !important;
+
+} 
+
+div#content    .even{
+color:                 #848180;
+padding:  10px;
+background:			 url(../img/) repeat-x   left  top; 
+border-bottom: 1px dotted Silver;
+border-top: 1px dotted Silver;
+}
+
+
+div#content .odd{
+color:                 #848180;
+padding:  10px;
+background:		 url(../img/) repeat-x   left  top; 
+border-bottom: 1px dotted Silver;
+border-top: 1px dotted Silver;
+} 
+
+
+
+
+
+div#content  ul{
+margin:       0 ;
+padding:      0 ;
+/* list-style: none ; */
+}
+
+div#content  li{
+margin:       0 ;
+padding:      0 ;
+ /*list-style: none ; */
+}
+
+
+
+
+
+/* ======= 選單內容 ======= */
+td#mainmenu a {
+}
+
+td#mainmenu a:hover {
+}
+
+
+
+
+
+
+#usermenu{
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#usermenu a.menuTop {
+
+
+}
+#usermenu a.highlight {
+}
+
+/* ======= 系統內容 ======= */
+#disclaimer{
+font-size: 1.0em; 
+line-height: 220%;
+}
+/*
+
+div#content    	td.even:hover, 
+div#content    	td.odd:hover, 
+#bottomRcolumn  .blockContent_r span  .outer tr  td:hover,
+#bottomLcolumn  .blockContent_l span  .outer tr  td:hover,
+#centerLcolumn  .blockContent_l span  .outer tr  td:hover,
+#centerRcolumn  .blockContent_r span  .outer tr  td:hover,
+.blockContenta  .blockContent  span  .outer tr  td:hover{
+background:     #FFF7EF   url(../img/ossico.png) no-repeat right center;
+}
+
+div#content   table.outer tr.odd  td:hover,
+div#content   table.outer tr.even  td:hover{
+background:     #F2F9FF   url(../img/ossicoa.png) no-repeat right center;}
+*/
+
+.outer {
+border: 1px solid #E5E5E5;
+}
+
+.head {
+line-height:          200%;
+color:                  #5E5E5E;
+padding: 5px; 
+font-weight: bold;
+}
+
+.even {
+padding: 5px;
+}
+
+
+
+.odd {
+padding: 5px;
+}
+
+.foot {
+background:			#c2cdd6 url(../img/oss003.png) repeat-x   left  top; 
+padding: 5px; 
+font-weight: bold;}
+
+tr.even td {
+background-color: #FFFFFF; 
+padding: 5px;
+border-bottom:    1px  dotted  silver;
+}
+tr.odd td {
+background-color: #FFFFFF; 
+ padding: 5px;
+ border-bottom:    1px  dotted  silver;
+ }
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; height: 200px; overflow: auto;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {
+padding: 2px;
+border-bottom: 1px dotted Silver;
+}
+.comUserStat {
+font-size: 1.0em; 
+color: #2F5376; 
+font-weight:lighter; 
+border: 1px solid #c0c0c0; 
+padding:  0px 5px;
+background:			#ffffff url(../img/ossbbsa.gif) no-repeat   right  bottom; 
+
+}
+
+.comUserStatCaption {
+font-weight: bold;
+color: #808080; 
+}
+.comUserStatus {
+margin-left: 2px; 
+margin-top: 10px; 
+padding-bottom: 20px !important; 
+color: #2F5376; 
+font-weight:bold; 
+font-size: 10px;}
+.comUserRank {margin: 2px;}
+
+.comUserRankText {
+padding:  0px 5px;
+width:    150px;
+font-size: 1.1em;
+font-weight:lighter;}
+
+
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+

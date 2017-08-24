@@ -1,0 +1,206 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.1 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : blocks.css - 12 01 2008 */
+
+/*========== list in columns ==========*/
+.xo-canvas-column ul {
+	margin:							0;
+	padding:							.5em;
+	list-style-type:				none;
+}
+.xo-canvas-column ul ul {
+	padding-top:					0;
+	padding-bottom:				0;
+	padding-left:					1em;
+
+}
+
+/* ====== cells table in column ========*/
+.xo-canvas-column .outer, .xo-canvas-column .outer td {
+	color: 							#990000;
+	background-color:				#f6f6f6;
+	border:							0 none;
+}
+.xo-canvas-column .outer, .xo-canvas-column .outer img {
+	margin:							0;
+	padding:							0;
+	border: 							0 !important;
+}
+
+/*===== left column =======*/
+#xo-canvas-leftcolumn {
+	background-color: 			#E8E4DD;
+	color:							#272727;
+	border-left: 1px solid #D1CEC9;
+	border-right: 1px solid #D1CEC9;
+}
+#xo-canvas-leftcolumn .xo-block {
+    color:							#272727;
+    margin-right:					1px;
+	margin-bottom:					10px;
+	padding-top:					4px;
+}
+#xo-canvas-leftcolumn .xo-blocktitle {
+    text-align: 				center;
+	background-color: 			inherit;
+	padding-left:					1px;
+	padding-bottom:				5px;
+	color:							#666;
+	font-family:					"Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size:						12px;
+	font-weight:					bold;
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent {
+    /*min-height:						60px;*/
+	background-color: 			inherit;
+	padding:						8px;
+	color:							#272727;
+	padding-bottom:  12px;
+	border: 2px solid #5A5E6F;
+	-moz-border-radius-topleft:   25px; /*for firefox*/
+    -moz-border-radius-bottomright: 25px; /*for firefox*/
+    -webkit-border-bottom-right-radius: 25px; /*for chrome and safari*/
+    -webkit-border-top-left-radius:   25px; /*for chrome and safari*/
+    border-radius: 25px;         /*for css3 if supported*/
+    width:							165px;
+}
+* html #xo-canvas-leftcolumn .xo-blockcontent { height: 110px; }
+#xo-canvas-leftcolumn .xo-blockcontent a {
+	background-color: 			inherit;
+	color:							#990000;
+	text-decoration: 				none;
+}
+#xo-canvas-leftcolumn .xo-blockcontent a:hover {
+	background-color: 			inherit;
+	color:							#8F9F00;
+	text-decoration: 				underline;
+}
+#xo-canvas-leftcolumn img {
+	margin: 							1px;
+	padding: 						1px;
+	border: 							1px
+}
+#xo-canvas-leftcolumn img:hover {border: 1px}
+
+/*======== right column ========*/
+#xo-canvas-rightcolumn {
+	background-color: 			#E8E4DD;
+	color:							#272727;
+	border-left: 1px solid #D1CEC9;
+	border-right: 1px solid #D1CEC9;
+}
+#xo-canvas-rightcolumn .xo-block {
+    color:							#272727;
+    margin-left:					1px;
+	margin-bottom:					10px;
+	padding-top:					4px;
+}
+#xo-canvas-rightcolumn .xo-blocktitle {
+    text-align: 				center;
+	background-color: 			inherit;
+	padding-right:					1px;
+	padding-bottom:				5px;
+	color:							#666;
+	font-family:					"Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size:						12px;
+	font-weight:					bold;
+}
+
+#xo-canvas-rightcolumn .xo-blockcontent {
+    /*min-height:						60px;*/
+	background-color: 			inherit;
+	padding:						8px;
+	color:							#272727;
+	padding-bottom:  12px;
+	border: 2px solid #5A5E6F;
+	-moz-border-radius-topleft:   25px; /*for firefox*/
+    -moz-border-radius-bottomright: 25px; /*for firefox*/
+    -webkit-border-bottom-right-radius: 25px; /*for chrome and safari*/
+    -webkit-border-top-left-radius:   25px; /*for chrome and safari*/
+    border-radius: 25px;         /*for css3 if supported*/
+    width:							165px;
+}
+* html #xo-canvas-rightcolumn .xo-blockcontent { height: 110px; }
+#xo-canvas-rightcolumn .xo-blockcontent a {
+	background-color: 			inherit;
+	color:							#990000;
+	text-decoration: 				none;
+}
+#xo-canvas-rightcolumn .xo-blockcontent a:hover {
+	background-color: 			inherit;
+	color:							#8F9F00;
+	text-decoration: 				underline;
+}
+#xo-canvas-rightcolumn img {
+	margin: 							1px;
+	padding: 						1px;
+	border: 							1px
+}
+#xo-canvas-rightcolumn img:hover {border: 1px}
+
+/* ======= Content center ===========*/
+#xo-page .xo-blockszone > .xo-block {
+    border:							1px;
+}
+.xo-block ul {
+	margin:							0;
+	padding:							0;
+	list-style-type:				none;
+}
+#xo-page .xo-blockszone .xo-blocktitle {
+	margin:							0 .5em;
+	padding:						0 .25em;
+	color:							#818181;
+	font-family:					"Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size:						12px;
+	font-weight:					bold;
+	background-color: 			inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+	background-color:				#E8E4DD;
+	padding:							.5em;
+	color:							#666;
+	text-align: 					justify;
+    border: 3px solid #666;
+    -moz-border-radius-topright:   25px; /*for firefox*/
+    -moz-border-radius-bottomleft: 25px; /*for firefox*/
+    -webkit-border-bottom-left-radius: 25px; /*for chrome and safari*/
+    -webkit-border-top-right-radius:   25px; /*for chrome and safari*/
+    border-radius: 25px;         /*for css3 if supported*/
+}
+#xo-page .xo-blockszone .xo-blockcontent img {
+	margin: 							1px;
+	padding: 						1px;
+	border: 							1px;
+}
+#xo-page .xo-blockszone .xo-blockcontent img:hover {
+	color:							inherit;
+	border: 							1px;
+}
+#xo-page .xo-blockszone .xo-blockcontent a {
+	background-color:				inherit;
+	color:							#990000;
+	text-decoration:				none;
+}
+#xo-page .xo-blockszone .xo-blockcontent a:hover {
+	color:							#000;
+}
+
+/* ======= Center blocks ===========*/
+#xo-page-topleftblocks .xo-blockcontent {width: 200px !important;}
+#xo-page-toprightblocks .xo-blockcontent {width: 200px !important;}
+#xo-page-bottomleftblocks .xo-blockcontent {width: 200px !important;}
+#xo-page-bottomrightblocks .xo-blockcontent {width: 200px !important;}
+#xo-page-topcenterblocks .xo-blockcontent {width: 95% !important;}
+#xo-page-bottomcenterblocks .xo-blockcontent {width: 95% !important;}
+/* exemple :
+#xo-page-topleftblocks .xo-block .xo-blocktitle {
+	color: #ff00ff;
+	background-color: transparent;
+} 
+#xo-page-topleftblocks .xo-block .xo-blockcontent {
+	color: #ff0000;
+	background-color: #000;
+} 
+etc ...*/

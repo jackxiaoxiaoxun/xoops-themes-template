@@ -1,0 +1,432 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.1 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : style.css - 12 01 2008 */
+/* Original css code By http://www.templateworld.com/free_templates.html */
+/* Edit by voltan (www.irxoops.org and www.finalfantasy.ir)
+/* IMPORTANT !!! :
+	propriety semantic order =
+	position box,
+	width,
+	heigth,
+	margin,
+	background-color,
+	background-image,
+	padding,
+	content (color, style font, ...),
+	border,
+	 ... */
+
+/* incorporation de feuilles de styles complmentaires */
+@import url(content.css);
+@import url(content-data.css);
+@import url(blocks.css);
+@import url(forms.css);
+
+/* reset des slecteurs */
+* { margin: 0; padding: 0; border: 0; outline: none; text-decoration: none;font-family: sans-serif; font-size: 1em; font-weight: normal; font-style: normal;}
+
+
+
+/* beginning of the applicable styles */
+html, body {
+    padding:                     0px; 
+    margin:                      0px; 
+    background:                  #554D49; 
+    color:                       #B6B6B6; 
+    font:                        14px/20px Arial, Helvetica, sans-serif;
+}
+body.site_closed form {	padding: 1em 35%;}
+
+/* ======= Body box ======= */
+#xo-wrapper {}
+#xo-bgstatic {}
+#xo-canvas {
+     height:                       322px; 
+     background:                   url(../img/topbg.gif) 0 0 repeat-x;
+}
+body.theme-dialog #xo-canvas {
+	margin:							0 6px;
+}
+/*================= Content zone ===================*/
+#xo-canvas-content {
+    background:url(../img/bodybg.gif) 0 0 repeat-x #554D49; 
+    color:#B6B6B6; 
+    margin:0 auto;
+}
+#xo-page {
+    width:688px; 
+    height:400px; 
+    background:url(../img/blog-header.jpg) 0 0 no-repeat; 
+    position:relative; 
+    margin:0 auto; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 90px;
+}
+#xo-content {
+	clear:							both;
+	margin:							0;
+	background-color:				#554D49;
+	padding:							.5em;
+	color:							#B6B6B6;
+}
+#xo-uptop {
+	margin: 							0;
+	background-color: 			transparent;
+	padding-top: 					5px;
+	color: 							inherit;
+	font-size: 						.9em;
+	text-align:						right;
+}
+#xo-uptop a {
+	background-color: 			inherit;
+	color: 							#FFD900;
+}
+#xo-uptop a:hover {
+background-color: 				inherit;
+color: 								#F91207;
+}
+#xo-logger-output { font-size:	.8em;}
+/* ============== header ================= */
+/* #xo-header {}
+#xo-top {
+	height: 							32px;
+	background-color:				#E2E2E2;
+	color: 							#333;
+} */
+/* ---------- Banner ---------- */
+#xo-banner{
+     width:660px; 
+     height:189px; 
+     position:relative; 
+     margin:0 auto; 
+     background:url(../img/header.jpg) 100% 0 no-repeat; 
+     padding:16px 0 0;
+}
+#xo-banner ul{
+     width:75px;
+     float:left;
+}
+#xo-banner li{
+	list-style-type:				none;
+     width:75px; 
+     height:51px;
+}
+#xo-banner li.sidenavpadding{
+     padding:18px 0 0; 
+}
+#xo-banner li.home a{
+     position:relative; 
+     width:75px; 
+     height:51px; 
+     display:block; 
+     background:url(../img/home-normal.gif) 100% 0 no-repeat; 
+}
+#xo-banner li.home a:hover{
+     background:url(../img/home-hover.gif) 100% 0 no-repeat;
+}
+#xo-banner li.aboutus a{
+     position:relative;  
+     width:75px; 
+     height:51px; 
+     display:block; 
+     background:url(../img/aboutus-normal.gif) 100% 0 no-repeat; 
+}
+#xo-banner  li.aboutus a:hover{
+     background:url(../img/aboutus-hover.gif) 100% 0 no-repeat;
+}
+
+#xo-banner li.contact a{
+     position:relative;  
+     width:75px; 
+     height:51px; 
+     display:block; 
+     background:url(../img/contactus-normal.gif) 100% 0 no-repeat; 
+}
+#xo-banner li.contact a:hover{
+     background:url(../img/contactus-hover.gif) 100% 0 no-repeat;
+}
+/*---------------------- site title in the header ----------------------------*/
+/*#xo-site-title {
+	position: 						relative;
+	top: 								10px;
+	background-color: 			transparent;
+	padding: 						10px 0 0 20px;
+	font-family:	 				"Lucida Grande","Trebuchet MS", Verdana, sans-serif;
+	font-size:						2.2em;
+	font-weight:					bold;
+}
+a#xo-site-title {
+	background-color: 			inherit;
+	color:							#F91207;
+}
+a:hover#xo-site-title {
+	background-color: 			inherit;
+	color: 							#fff;
+}
+#xo-site-title.commercial {
+	margin: 							0 20px;
+	padding: 						10px 0 0 0;
+ }
+ #xo-site-title.commercial a:hover {
+	background-color: 			inherit;
+	color:							#F91207;
+}*/
+/*----------------------- slogan in the header ------------------------*/
+/*#xo-site-slogan {
+	position: 						relative;
+	top: 								10px;
+	padding-left: 					70px;
+	font-style: 					italic;
+}
+#xo-site-slogan.commercial {}*/
+/*------------------------ Logo in the header ----------------------------*/
+/*#xo-main-logo {
+	position: 						relative;
+	top: 								15px;
+	background: 					inherit;
+	padding-left: 					10px;
+	color:							#485B43;
+	}
+#xo-main-logo.commercial {}*/
+/*-------- style forms in the header-----------*/
+#xo-banner form {
+	display:							inline;
+	margin:							0;
+}
+#xo-banner input {
+	width:							8em;
+	margin:							0 0 0 2px;
+	background-color:				#E2E2E2;
+	color:							#333;
+}
+/*=============== Style for the Footer  ====================*/
+#xo-footer{
+    height:                       132px; 
+    background:                   url(../img/footerbg.gif) 0 0 repeat-x #24201E; 
+    color:                        #fff; 
+    font:                         13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif; 
+    clear:                        both; 
+    padding:                      86px 0 0;
+}
+#footerPan{
+    width:                        588px; 
+    position:                     relative; 
+    margin:                       0 auto;
+}
+#footerPan ul{
+    width:                         588px; 
+    height:                        20px; 
+    position:                      relative; 
+    margin:                        0 auto;
+    float:                         left;
+}
+#footerPan li{
+	list-style-type:			   none;
+    float:                         left; 
+}
+#footerPan a{
+    padding:                       0 10px 0; 
+    color:                         #fff; 
+    background:                    #24201E; 
+    text-decoration:               none; 
+    font-size:                     12px;
+}
+#footerPan a:hover{
+    text-decoration:               underline;
+}
+#footerPan p.copyright{
+    width:                          350px; 
+    margin:                         0 auto;
+}
+#footerPan ul.templateworld{
+    width:                          250px; 
+    background:                     #24201E; 
+    color:                          #fff; 
+    display:                        block; 
+    position:                       absolute; 
+    top:                            75px; 
+    left:                           200px; 
+    font-size:                      10px;
+}
+#footerPan ul.templateworld li{
+    height:                         20px;
+}
+#footerPan ul.templateworld li a{
+    background:                     #24201E; 
+    display:                        block; 
+    color:                          #fff; 
+    text-decoration:                none; 
+    padding:                        0px;
+}
+#footerPan ul.templateworld li a:hover{
+    text-decoration:                underline;
+}
+#footerPanhtml{
+    text-align:						left;
+    float:                          left;
+    width:                          58px; 
+    height:                         23px; 
+    display:                        block; 
+    position:                       absolute; 
+    top:                            46px; 
+    left:                           200px;
+}
+#footerPanhtml a{
+    text-align:						left;
+    float:                          left;
+    width:                          58px; 
+    height:                         23px; 
+    display:                        block; 
+    background:                     url(../img/html-normal.gif) 0 0 no-repeat #A79040; 
+    color:                          #685900; 
+    font-size:                      13px; 
+    line-height:                    23px; 
+    font-weight:                    bold; 
+    text-decoration:                none;
+    text-transform:                 uppercase; 
+    padding:                        0 0 0 10px;
+}
+#footerPanhtml a:hover{
+    text-align:						left;
+    float:                          left;
+    background:                     url(../img/html-hover.gif) 0 0 no-repeat #D64F00; 
+    color:                          #24201E;
+}
+#footerPancss{
+    text-align:						left;
+    float:                          left;
+    width:                          58px; 
+    height:                         24px; 
+    display:                        block; 
+    position:                       absolute; 
+    top:                            45px; 
+    left:                           270px;
+}
+#footerPancss a{
+    text-align:						left;
+    float:                          left;
+    width:                          49px; 
+    height:                         24px; 
+    display:                        block; 
+    background:                     url(../img/css-normal.gif) 0 0 no-repeat #D64F00; 
+    color:                          #fff; 
+    font-size:                      13px;
+    line-height:                    24px;
+    font-weight:                    bold; 
+    text-decoration:                none; 
+    text-transform:                 uppercase; 
+    padding:                        0 0 0 10px;
+}
+#footerPancss a:hover{
+    text-align:						left;
+    float:                          left;
+    background:                     url(../img/css-hover.gif) 0 0 no-repeat #A79040;
+    color:                          #fff; 
+    text-decoration:                none;
+}
+/*========== Main menu block =============*/
+#mainmenu {
+}
+#mainmenu a {
+	background:						#554D49 !important;
+	width: 							140px;
+	padding-top: 					2px;
+	padding-left: 					2px;
+	padding-right: 					2px;
+	padding-bottom: 				2px;
+	color:							#fff !important;
+	border-bottom:					1px solid #ddd;
+	border-right:					1px solid #ddd;
+	border-left:					1px solid #fff;
+	border-top:				    	1px solid #fff;
+	margin-top:                     3px;
+	margin-bottom:                  3px;
+}
+#mainmenu a:hover {
+	background:						#4A4955 !important;
+	color:							#FFD900 !important;
+	text-decoration: 				none !important;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {
+    background:						#81ABCA !important;
+	color: 							#d49a11 !important;
+	padding-top: 					2px;
+	padding-bottom: 				2px;
+	font-size:						.8em;
+	font-style: 					italic;
+	background-color:				inherit;
+}
+#mainmenu a.menuSub:hover {
+	color:							#31658C !important;
+	background-color: 			inherit;
+}
+
+/*============ Usermenu block ============*/
+#usermenu a {
+	display: 						block;
+	background-color: 			inherit;
+	padding: 						2px;
+	color:							#32529C;
+	font-size: 						0.8em;
+	font-weight: 					normal;
+	line-height: 					1em;
+}
+#usermenu a:hover {
+	background-color: 		   	inherit;
+	padding-left: 					1em;
+	color:							#52B438;
+	font-style: 					italic;
+	text-decoration:				none !important;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: 		     	#333;
+	color: 							#ccc;
+}
+
+/*=========== for old templates system ============*/
+#usermenu a, #mainmenu a {	display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}
+
+/*=========== for logo Panel ============*/
+#logoPan{
+     width:                   778px; 
+     height:                  83px; 
+     position:                relative; 
+     margin:                  0 auto; 
+     background:              url(../img/logopanel-bg.gif) 0 0 no-repeat;
+}
+#logoPan img{
+     width:                   171px; 
+     height:                  42px; 
+     position:                absolute; 
+     top:                     41px; 
+     left:                    304px;
+}
+/*----BODY TOP PANEL----*/
+#mainbodytopPan{    
+     background:               url(../img/bodytopbg.gif) 0 0 repeat-x #3B3532; 
+     color:                    #B6B6B6; 
+     margin:                   0 auto;
+}
+#bodytopPan{
+text-align:						left;
+     width:                     588px; 
+     height:                    224px; 
+     position:                  relative; 
+     margin:                    0 auto; 
+     padding:                   22px 95px 0;
+}
+
+#bodytopPan h2{
+     width:                     588px; 
+     height:                    60px; 
+     background:                url(../img/image1.gif) 250px 25px no-repeat #3C3633; 
+     color:                     #D5D5D5; 
+     font-size:                 30px; 
+     line-height:               60px; 
+     font-weight:               normal;
+}
+/*----/BODY TOP PANEL----*/

@@ -1,0 +1,304 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.1 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : style.css - 12 01 2008 */
+
+/* IMPORTANT !!! :
+	propriety semantic order =
+	position box,
+	width,
+	heigth,
+	margin,
+	background-color,
+	background-image,
+	padding,
+	content (color, style font, ...),
+	border,
+	 ... */
+
+/* incorporation de feuilles de styles complémentaires */
+@import url(content.css);
+@import url(content-data.css);
+@import url(blocks.css);
+@import url(forms.css);
+@import url(slide.css);
+@import url(dropdown.css);
+
+/* reset des sélecteurs */
+* { margin: 0; padding: 0; border: 0; outline: none; text-decoration: none;font-family: sans-serif; font-size: 1em; font-weight: normal; font-style: normal;}
+
+
+
+/* beginning of the applicable styles */
+html{
+	background: 			url(../img/desenho.png) no-repeat #b0b0b0;
+	padding:							0 100px;}
+
+body {
+	margin:							0;
+	color:							#fff;
+	font-family:					"Lucida Grande", Verdana, sans-serif;
+	font-size:						10pt;
+}
+body.site_closed form {	padding: 1em 35%;}
+
+/* ======= Body box ======= */
+#xo-wrapper {}
+#xo-bgstatic {}
+#xo-canvas {
+	margin:							0;
+	color:							#333;
+}
+body.theme-dialog #xo-canvas {
+	margin:							0 6px;
+}
+/*================= Content zone ===================*/
+#xo-canvas-content {
+	background-color: 			    #f6f6f6;
+	padding:						12px;
+	color:							#666;
+	-moz-border-radius:             8px;
+	-webkit-border-radius:          8px;
+	-khtml-border-radius:           8px;
+	border-radius:                  8px;
+	margin-bottom:                  8px;
+    filter:                         alpha(opacity=80);
+    -moz-opacity:                   0.8;
+    -webkit-opacity:                0.8;
+    -khtml-opacity:                 0.8;
+    opacity:                        0.8;
+}
+#xo-page {
+	background-color:				#fff;
+	color:							#666;
+}
+#xo-canvas-rightcolumn {padding: .5em;}
+#xo-content {
+	clear:							both;
+	margin:							0;
+	background-color:				#fff;
+	padding:						.5em;
+	color:							#333;
+}
+#xo-uptop {
+	margin: 							0;
+	background-color: 			transparent;
+	padding-top: 					5px;
+	color: 							inherit;
+	font-size: 						.9em;
+	text-align:						right;
+}
+#xo-uptop a {
+	background-color: 			inherit;
+	color: 							#32529C;
+}
+#xo-uptop a:hover {
+background-color: 				inherit;
+color: 								#EAAD7B;
+}
+#xo-logger-output { font-size:	.8em;}
+/* ============== header ================= */
+#xo-header {}
+#xo-top {
+	height: 							105px;
+	color: 							#333;
+}
+/* ---------- Banner ---------- */
+#xo-banner {
+	clear:							both;
+	position:						relative;
+	width:							100%;
+	height:							82px;
+	z-index:							1000;
+	background:          url(../img/welcome-img.jpg);
+	color:							#666;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	
+	filter:alpha(opacity=30);
+   -moz-opacity:0.3;
+   -webkit-opacity: 0.3;
+   -khtml-opacity: 0.3;
+   opacity: 0.3;
+   
+
+
+}
+banner.commercial {
+	height:							82px;
+}
+body.theme-dialog #xo-banner {
+	height:							48px;
+	padding-top:					6px;
+	padding-left:					10px;
+}
+#xo-banner-ad {
+	position:						absolute;
+	top:								15px;
+	right:							60px;
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+/*---------------------- site title in the header ----------------------------*/
+#xo-site-title {
+	position: 						relative;
+	top: 								10px;
+	background-color: 			transparent;
+	padding: 						10px 0 0 20px;
+	font-family:	 				"Lucida Grande","Trebuchet MS", Verdana, sans-serif;
+	font-size:						2.2em;
+	font-weight:					bold;
+}
+a#xo-site-title {
+	background-color: 			inherit;
+	color:							#EAAD7B;
+}
+a:hover#xo-site-title {
+	background-color: 			inherit;
+	color: 							#fff;
+}
+#xo-site-title.commercial {
+	margin: 							0 20px;
+	padding: 						10px 0 0 0;
+ }
+ #xo-site-title.commercial a:hover {
+	background-color: 			inherit;
+	color:							#EAAD7B;
+}
+/*----------------------- slogan in the header ------------------------*/
+#xo-site-slogan {
+	position: 						relative;
+	top: 								10px;
+	padding-left: 					70px;
+	font-style: 					italic;
+}
+#xo-site-slogan.commercial {}
+/*------------------------ Logo in the header ----------------------------*/
+#xo-main-logo {
+	position: 						relative;
+	top: 								15px;
+	background: 					inherit;
+	padding-left: 					10px;
+	color:							#666;
+	}
+#xo-main-logo.commercial {}
+/*-------- style forms in the header-----------*/
+#xo-banner form {
+	display:							inline;
+	margin:							0;
+}
+#xo-banner input {
+	width:							8em;
+	margin:							0 0 0 2px;
+	background-color:				#E2E2E2;
+	color:							#333;
+}
+/*=============== Style for the Footer  ====================*/
+#xo-footer {
+	height: 							80px;
+	margin:							0;
+	background: 			url(../img/panel_mid.png) top repeat-x #c0c0c0;
+	padding: 						5px;
+color: #4a4a4a;
+	font-size:						.8em;
+		-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+
+}
+
+#xo-footer a {
+	background-color:				inherit;
+	color: 							#AF8E8E;
+	text-decoration: 				none;
+}
+#xo-footer a:hover {
+	background-color:				inherit;
+	color: 							#000;
+	text-decoration: 				underline;
+}
+
+#xo-footer .copyright {
+	position:						absolute;
+	display: 						inline;
+	margin-left: 					30%;
+	margin-right: 					30%;
+	background-color:				transparent;
+	margin-top: 					35px;
+	color: 							inherit;
+	font-size: 						1em;
+	font-weight: 					normal;
+	text-align: 					center;
+	text-decoration: 				none;
+}
+.rss {text-align: 					center;}
+#rss {
+	background: 					transparent	url(../icons/action/feed.png) no-repeat center right;
+	padding-right: 				16px;
+	color: 							inherit;
+	text-decoration: 				none;
+}
+/*========== Main menu block =============*/
+#mainmenu a {
+	display: 						block;
+	margin: 							0;
+	padding: 						1px;
+	font-weight: 					500;
+}
+#mainmenu a:hover {
+	text-decoration:				none !important;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {
+	background-color:				inherit;
+	padding-left: 					20px;
+	color:							#ccc;
+	font-size:						.8em;
+}
+#mainmenu a.menuSub:hover {
+	background-color: 			inherit;
+	color:							#32529C;
+}
+
+/*============ Usermenu block ============*/
+#usermenu a {
+	display: 						block;
+	background-color: 			inherit;
+	padding: 						2px;
+	color:							#32529C;
+	font-size: 						0.8em;
+	font-weight: 					normal;
+	line-height: 					1em;
+}
+#usermenu a:hover {
+	background-color: 			inherit;
+	padding-left: 					1em;
+	color:							#666;
+	text-decoration:				none !important;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: 			#333;
+	color: 							#ccc;
+}
+
+/*=========== for old templates system ============*/
+#usermenu a, #mainmenu a {	display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}
+
+/*==================== for tooltip =========================*/
+#tooltip {
+	position: absolute;
+	border: 1px solid #333;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background: #f7f5d1;
+	padding: 2px 5px;
+	color: #333;
+	display: none;
+}

@@ -1,0 +1,544 @@
+﻿/*==========佈景製作：Neo設計工坊=======*/
+/*============設計師：徐嘉裕=========*/
+/*=========連絡電話：0931229118=========*/
+
+@import url(forms.css); 
+@import url(modules.css); 
+@import url(block.css); 
+@import url(contentpage.css); 
+
+*{	font-family:		"Lucida Grande", Verdana, sans-serif  !important;  }
+
+html {
+SCROLLBAR-FACE-COLOR: #58656F; /*捲軸顏色*/
+SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; /*捲軸左與上內邊框*/
+SCROLLBAR-SHADOW-COLOR: #FFFFFF; /*捲軸右與下內邊框*/
+SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; /*捲軸左與上外邊框*/
+SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF; /*捲軸右與下外邊框*/
+SCROLLBAR-ARROW-COLOR: #FFFFFF; /*捲軸箭頭*/
+SCROLLBAR-TRACK-COLOR: #EFEFEF; /*捲軸底色*/
+   }
+
+body {color: #000; 
+  
+       /* background-attachment:        fixed;*/
+ margin: 0; padding: 0;
+ 
+}
+#body{
+  background:			 url(../img/oss3_02.jpg) repeat-y center top;
+}
+
+table {width: 100%; background-color:; font-size: small; border-collapse:   collapse;}
+table td {padding: 0; border-width: 0; vertical-align: top; }
+
+a {color: #666666; text-decoration: none;  background-color: transparent;}
+a:hover {color: #ff6600;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 0; 
+    padding: 0; 
+    list-style: none !important; }
+ol { margin: 0; padding: 0; list-style: none; }
+li { margin: 0; }
+
+input.formButton {}
+
+div#content  div .item {
+border: none;
+ background:			#FFFFFF url(../img/) repeat-x   left  top; 
+}
+
+
+div#content  div .item  a{
+  color: #E2EBFF;
+}
+div#content  div .itemHead {
+   padding: 0px   0   0  5px; 
+   height: 42px;
+   background:			#FBCB8B url(../img/ossitemHead.png) repeat-x   left  top; 
+   color: #FFFFFF;
+   }
+   
+div#content  div .itemInfo {
+text-align: right; 
+padding: 3px; 
+ height: 30px;
+ border-bottom:  1px  solid  #A5A5A5;
+}
+
+
+div#content  div .itemTitle a {
+font-size: 1.0em; 
+font-weight: bold; 
+font-variant: small-caps; 
+color: #ffffff; 
+background-color: transparent;}
+
+
+div#content  div .itemPoster {
+ font-size: 90%; 
+ font-style:italic;
+
+}
+
+
+div#content  div .itemPostDate {font-size: 90%; font-style:italic;}
+div#content  div .itemStats {font-size: 90%; font-style:italic;}
+div#content  div .itemBody {
+  padding: 5px;
+  font-size: 1.0em; 
+letter-spacing:               0.1em;
+line-height: 220%;}
+
+
+div#content  div .itemText img{
+max-width:550px;}
+
+div#content  div   p.itemText{
+ background:	 #FFFFFF url(../img/) no-repeat right 4px !important;
+   padding-bottom: 15px; 
+   color:    #686667;
+  }
+  
+
+  
+div#content  div .itemText:first-letter {
+font-size: 120%; 
+font-weight: bold;
+color:    #5B8BB2;
+}
+div#content  div .itemFoot {
+text-align: right; 
+padding: 0px; 
+background:			#efefef url(../img/oss003.png) repeat-x   left  top; 
+ border-bottom:  3px  solid  #EAEDF2;
+}
+
+div#content  div .itemPoster  a,
+div#content  div  .itemFoot  a{
+color:    #6D798E;
+}
+
+
+div#content  div .itemPoster  a:hover,
+div#content  div  .itemFoot  a:hover{
+color:    #111111;
+}
+
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+table th {
+ color: #808080 !important; 
+ padding : 0  0    0    5px; 
+ vertical-align : middle; 
+ font-size:   1.0em;
+ background:			#FBCB8B url(../img/ossg1.png) repeat-x   left  top;
+ }
+ 
+/* ======= 廣告區塊內容 ======= */
+
+div#headerbanner {
+      width: 100%; 
+      vertical-align: middle; 
+      text-align:center;
+      margin:   5px  0;
+      }
+      
+td#headerbar {border-bottom: 1px solid #dddddd; background-image: url(hbar.gif);}
+
+#tablecontents{
+  
+clear:both;
+}
+/* ======= 搜尋區塊內容 ======= */
+td#leftcolumn  .searchtitle  div:first-letter{
+color: #808080; 
+}
+
+td#leftcolumn   .searchtitle{
+margin:          10px   0     0    0;
+padding: 0px  0   0   30px; 
+}
+
+td#leftcolumn  #xo-search{
+letter-spacing:               0.1em;
+}
+
+td#leftcolumn  #xo-search  .xo-searcha{
+height:      38px;
+}
+
+
+td[id="leftcolumn"]  div[id="xo-search"]  div[class="xo-searchb"]{
+width:              261px;
+background:			 url(../img/oss_33.png) no-repeat    left  top;
+height:      88px;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb{
+width:               261px;
+background:			 url(../img/oss_33.gif) no-repeat   left  top;
+height:      88px;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb  ul{
+margin:            0;
+padding:           0;
+}
+
+td#leftcolumn  #xo-search  .xo-searchb  li{
+float:            left;
+margin:            0;
+padding:           0;
+}
+
+#xo-search .xo-searchb  .xo-searchbottom{
+clear:                    both;
+margin:            3px   0   0  30px;
+ }
+
+/* ======= 共用部分======= */
+
+div#content div  table.outer  td.odd, 
+div#content div  table.outer  td.even{
+border-bottom: 1px dotted Silver;
+}
+
+div#content  ul, 
+#centerLcolumn ul, 
+#bottomLcolumn ul, 
+#centerRcolumn ul, 
+#bottomRcolumn ul, 
+#centercolumn  ul,
+td#leftcolumn ul{
+margin:       0 !important;
+padding:      0 !important;
+ list-style: none !important; 
+}
+
+div#content  li,
+#centerLcolumn li, 
+#bottomLcolumn li, 
+#centerRcolumn li, 
+#bottomRcolumn li, 
+#centercolumn  li,
+td#leftcolumn li{
+margin:       0 ;
+padding:      0 ;
+ list-style: none !important; 
+}
+
+div#content div a,
+#bottomCcolumn li  a,
+#centercolumn li  a,
+#xo-search .xo-searchb  .xo-searchbottom a,
+td#leftcolumn li  a{
+color:               #686667;
+}
+
+div#content div a:hover,
+#bottomCcolumn li  a:hover,
+#centercolumn li  a:hover,
+#xo-search .xo-searchb  .xo-searchbottom a:hover,
+td#leftcolumn li  a:hover{
+color:  #3F5A7A;
+}
+
+
+#centerLcolumn ul div.blockTitle:first-letter,
+#bottomLcolumn ul div.blockTitle:first-letter,
+#centerLcolumn ul div.blockTitle:first-letter,
+#centerRcolumn ul div.blockTitle:first-letter,
+#bottomCcolumn ul div.blockTitle:first-letter,
+#centerCcolumn ul div.blockTitle:first-letter,
+td#leftcolumn ul div.blockTitle:first-letter{
+color: #808080; 
+}
+
+
+#bottomRcolumn  .blockContent_r  span,
+#bottomLcolumn  .blockContent_l  span,
+#bottomCcolumn .blockContent  span, 
+#centerLcolumn .blockContent  span, 
+#centerRcolumn .blockContent  span, 
+#centerCcolumn .blockContent  span,
+td#leftcolumn  .blockContent span{
+border-bottom:    1px  dotted  silver;
+}
+
+
+
+/* ======= 內容頁面 ======= */
+
+div#content {
+text-align: left; 
+padding: 0px;
+margin:  0  5px !important;
+font-size: 1.0em; 
+letter-spacing:               0.1em;
+border-top:  7px solid  #C5C5C5;
+line-height: 220%;
+color:       #686667;
+overflow: hidden;
+width:  580px;
+}
+div#content table th{
+background:			#E8E8E8 url(../img/ossc.png) repeat-x   left  top; 
+}
+
+div#content div  table{
+width:   100% !important;
+}
+
+div#content  b{
+margin-left:  5px;  
+}
+
+div#content  .odd:first-letter{
+color:       #5D8EB6;
+
+}
+
+div#content  .odd  b{
+margin-left:  -5px;  
+}
+
+div#content  .odd{
+padding:  10px;
+background:			#FFFFFF url(../img/) repeat-x   left  top; 
+}
+
+/*div#content   .even   select  {
+width:   30%;
+}*/
+
+div#content  ul{
+margin:       0 !important;
+padding:      0 !important;
+ list-style: none !important; 
+}
+
+div#content  li{
+margin:       0 ;
+padding:      0 ;
+ list-style: none !important; 
+}
+
+
+/* ======= 選單內容 ======= */
+td#mainmenu a {
+}
+
+td#mainmenu a:hover {
+}
+
+
+div#rightcolumn  td#mainmenu a.menuMain, 
+div#rightcolumn  td#mainmenu a.menuTop{
+line-height: 250%; 
+display: block; 
+margin:  0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:		 url(../img/button_nexts.gif) no-repeat  2px 8px;
+padding:              0   0   0   24px  !important;
+font-weight:  bold;
+
+}
+
+div#rightcolumn  td#mainmenu a.menuMain:hover,
+div#rightcolumn  td#mainmenu a.menuTop:hover{
+background:		#A2B2B5 url(../img/button_nexts.gif) no-repeat  4px 8px;
+COLOR: #475051;
+}
+
+
+
+
+td#mainmenu a.menuTop {
+line-height: 250%; 
+display: block; 
+margin:  0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_ends.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+
+
+
+td#mainmenu a.menuMain {
+line-height: 250%; 
+display: block; 
+margin: 0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/button_nexts.gif) no-repeat  2px 8px;
+padding:              0   0   0   22px  !important;
+}
+
+
+td#mainmenu a.menuSub {
+line-height: 250%; 
+display: block; 
+margin-left:  15px; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:			 url(../img/ossaad.png) no-repeat  2px 9px;
+padding:              0   0   0   18px  !important;
+}
+
+td#mainmenu a.menuSub:hover{
+background:			#EFF3FC	 url(../img/ossaada.png) no-repeat  4px 9px ;
+}
+
+
+td#usermenu a {
+line-height: 250%; 
+display: block; 
+margin: 0; 
+padding: 0;
+border-bottom: 1px solid #A5A5A5 !important; 
+background:	 url(../img/icoma.png) no-repeat  2px 9px;
+padding:              0   0   0   25px  !important;
+ }
+ 
+ 
+td#usermenu a:hover {
+background:	#EFF3FC url(../img/b2.png) no-repeat  left  top; 
+}
+
+
+
+
+td#mainmenu a:hover{
+background:	#EFF3FC url(../img/button_nexts.gif) no-repeat   4px 8px;
+border-right: 6px solid #3389A4;
+}
+
+td#mainmenu a.menuTop:hover{
+background:			#EFF3FC	 url(../img/button_ends.gif) no-repeat  4px 8px ;
+}
+
+
+td#usermenu a.menuTop {
+
+
+}
+td#usermenu a.highlight {
+}
+
+/* ======= 系統內容 ======= */
+#disclaimer{
+font-size: 1.0em; 
+line-height: 220%;
+}
+
+
+div#content div  div 	td.even:hover, 
+div#content div   div	td.odd:hover, 
+#bottomRcolumn  .blockContent_r span  .outer tr  td:hover,
+#bottomLcolumn  .blockContent_l span  .outer tr  td:hover,
+#centerLcolumn  .blockContent_l span  .outer tr  td:hover,
+#centerRcolumn  .blockContent_r span  .outer tr  td:hover,
+.blockContenta  .blockContent  span  .outer tr  td:hover{
+background:     #FFF7EF   url(../img/ossico.png) no-repeat right center;
+}
+
+div#content div  table.outer tr.odd  td:hover,
+div#content div  table.outer tr.even  td:hover{
+background:     #F2F9FF   url(../img/ossicoa.png) no-repeat right center;}
+
+
+.outer {
+border: 1px solid #c0c0c0;
+}
+.head {
+line-height:          200%;
+color:                  #5E5E5E;
+padding: 5px; 
+font-weight: bold;
+}
+
+.even {
+background-color: transparent; 
+padding: 5px;
+}
+
+
+
+.odd {
+padding: 5px;}
+
+.foot {
+background:			#c2cdd6 url(../img/oss003.png) repeat-x   left  top; 
+padding: 5px; 
+font-weight: bold;}
+
+tr.even td {
+background-color: #FFFFFF; 
+padding: 5px;
+border-bottom:    1px  dotted  silver;
+}
+tr.odd td {
+background-color: #FFFFFF; 
+ padding: 5px;
+ border-bottom:    1px  dotted  silver;
+ }
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; height: 200px; overflow: auto;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {
+padding: 2px;
+border-bottom: 1px dotted Silver;
+}
+.comUserStat {
+font-size: 1.0em; 
+color: #2F5376; 
+font-weight:lighter; 
+border: 1px solid #c0c0c0; 
+padding:  0px 5px;
+background:			#ffffff url(../img/ossbbsa.gif) no-repeat   right  bottom; 
+
+}
+
+.comUserStatCaption {
+font-weight: bold;
+color: #808080; 
+}
+.comUserStatus {
+margin-left: 2px; 
+margin-top: 10px; 
+padding-bottom: 20px !important; 
+color: #2F5376; 
+font-weight:bold; 
+font-size: 10px;}
+.comUserRank {margin: 2px;}
+
+.comUserRankText {
+padding:  0px 5px;
+width:    150px;
+font-size: 1.1em;
+font-weight:lighter;}
+
+
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}

@@ -1,0 +1,15 @@
+<div id="columncyclerl">
+<{if !$block.title or $block.title|truncate:15:"":true == do_not_display_ }>
+
+    <{$block.content}>
+
+<{else}>
+
+    <div class="blockTitle"><h3><{$block.title}></h3></div>
+
+    <div class="blockContent"><{$block.content}></div>
+    <div class="blockContentbottom"></div>
+
+ <{/if}>
+</div>
+

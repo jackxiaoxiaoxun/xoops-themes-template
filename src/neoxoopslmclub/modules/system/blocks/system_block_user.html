@@ -1,0 +1,23 @@
+<div id="usermenu">
+  <ul>
+    <li id="icon01"><{$xoops_uname}></a></li>
+      <{if $xoops_isadmin}>
+    <li id="icon02"> <a class="menuTop" href="<{$xoops_url}>/admin.php"><{$block.lang_adminmenu}></a></li>
+      
+	    <li id="icon03"> <a href="<{$xoops_url}>/user.php"><{$block.lang_youraccount}></a></li>
+      <{else}>    
+		<li id="icon03"><a class="menuTop" href="<{$xoops_url}>/user.php"><{$block.lang_youraccount}></a></li>
+      <{/if}>
+      
+    <li id="icon04">  <a href="<{$xoops_url}>/edituser.php"><{$block.lang_editaccount}></a></li>
+    <li id="icon05">  <a href="<{$xoops_url}>/notifications.php"><{$block.lang_notifications}></a></li>
+      <{if $block.new_messages > 0}>
+       <li id="icon06"> <a class="highlight" href="<{$xoops_url}>/viewpmsg.php"><{$block.lang_inbox}> (<span style="color:#ff0000; font-weight: bold;"><{$block.new_messages}></span>)</a></li>
+  <{else}>
+      <li id="icon06">  <a href="<{$xoops_url}>/viewpmsg.php"><{$block.lang_inbox}></a></li>
+  <{/if}>
+      <li id="icon07"><a href="<{$xoops_url}>/user.php?op=logout"><{$block.lang_logout}></a></li>
+</ul>
+</div>
+
+

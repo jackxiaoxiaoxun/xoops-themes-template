@@ -1,0 +1,39 @@
+<div id="xo-user">
+<div id="xo-userout">
+<ul>
+	<{if $xoops_isuser}> <li>
+   <a href="<{xoAppUrl /admin.php}>" ><img src="<{xoImgUrl icons/users/configuration.png}>" alt="管理專區" /></a>  </li><{if $xoops_isadmin}>
+ 
+ 
+    <{/if}>
+<li><a href="<{xoAppUrl viewpmsg.php}>" >
+		<{if $pmcount}>
+			<img src="<{xoImgUrl icons/users/inbox-full.png}>" alt="Inbox (<{$pmcount}>)"/>
+		<{else}>
+			<img src="<{xoImgUrl icons/users/inbox.png}>" alt="收信夾"/>
+		<{/if}>
+		</a>	</li>
+        <li><div><a href="<{xoAppUrl /edituser.php}>" ><img src="<{xoImgUrl icons/users/usera.png}>" alt="編輯會員資料"/></a><strong><span>歡迎：</span><{$xoops_uname}></strong></div></li>
+        <li><a href="<{xoAppUrl /user.php}>" ><img src="<{xoImgUrl icons/users/userb.png}>" alt="觀看帳號"/></a></li>
+        <li><div><!--<a href="<{xoAppUrl /user.php}>" ><img src="<{xoImgUrl icons/users/userb.png}>" alt="觀看帳號"/></a>--><form name="clock" onsubmit="0"><input type="text" name="face" ></form></div>
+        </li>
+          			<!-- MSTableType="layout" -->	 					
+		   <{else}> 
+           </ul> 
+           </div>
+      <div id="xo-userin">  
+<ul>                   
+         <form action="<{$xoops_url}>/user.php" method="post" >
+   	<input type="hidden" name="xoops_redirect" value="<{$xoops_requesturi}>" />
+  <input type="hidden" name="op" value="login" />
+	 <li><span>會員帳號:</span></li><li><input type="text" name="uname" size="19"  /></li>
+     <li><span>會員密碼:</span></li><li><input type="password" name="pass" size="19"  /></li>
+     <li class="liimg"><input type="image" value="Login" src="<{xoImgUrl img/oss_12.jpg}>" alt="會員登入" /></li>
+     <!-- <a href="<{$xoops_url}>/user.php#lost">補送密碼</a>&nbsp;&nbsp; 
+				｜&nbsp;&nbsp; 
+               <a href="<{$xoops_url}>/register.php">馬上註冊</a>-->
+                 </form>    </ul>              
+			  <{/if}>
+     		    </div>
+               </div>
+               
